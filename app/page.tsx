@@ -1,103 +1,133 @@
-import Image from "next/image";
-
+import { ServerComponentDemo } from "@/components/server-component-demo";
+import { Suspense } from "react";
+import fs from "fs";
+import Link from "next/link";
+import { BIG_DATA } from "@/components/big-module";
+//Turning JSX into an HTML string is usually known as "Server-Side Rendering" (SSR).
 export default function Home() {
+  const time = new Date().toISOString();
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm/6 text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2 tracking-[-.01em]">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-[family-name:var(--font-geist-mono)] font-semibold">
-              app/page.tsx
-            </code>
-            .
-          </li>
-          <li className="tracking-[-.01em]">
-            Save and see your changes instantly.
-          </li>
-        </ol>
-
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:w-auto"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 w-full sm:w-auto md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
+    <main className="min-h-screen bg-gradient-to-b from-background to-muted p-8">
+      <div className="mx-auto max-w-6xl space-y-12">
+        {/* Header */}
+        <div className="text-center space-y-4">
+          <h1 className="text-4xl font-bold tracking-tight">
+            React Server Components Demo
+          </h1>
+          <p className="text-lg text-muted-foreground">
+            Understanding the difference between Server and Client Components
+          </p>
+          <p>Rendered at: {time}</p>
+          <p>Big data length: {BIG_DATA.length}</p>
+          <div className="flex justify-center gap-4">
+            <Link
+              href="/CSR"
+              className="px-6 py-2 rounded-lg bg-primary text-primary-foreground hover:bg-primary/90 transition"
+            >
+              → Go to Client-Side Rendering Demo
+            </Link>
+          </div>
         </div>
-      </main>
-      <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
+
+        {/* Server Component Demo */}
+        <Suspense
+          fallback={
+            <div className="rounded-lg border bg-card p-6">
+              <div className="animate-pulse space-y-4">
+                <div className="h-6 bg-muted rounded w-1/4" />
+                <div className="h-4 bg-muted rounded w-3/4" />
+                <div className="h-4 bg-muted rounded w-1/2" />
+              </div>
+            </div>
+          }
         >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
-    </div>
+          <ServerComponentDemo />
+        </Suspense>
+
+        {/* Key Benefits Section */}
+        <div className="rounded-lg border bg-card p-6 space-y-4">
+          <h2 className="text-2xl font-bold mb-4">
+            Server-Side Rendering Benefits
+          </h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div className="p-4 bg-muted rounded-lg">
+              <h3 className="font-semibold mb-2">✓ Zero JavaScript Bundle</h3>
+              <p className="text-sm text-muted-foreground">
+                No client-side JavaScript needed, reducing bundle size and
+                improving load times
+              </p>
+            </div>
+            <div className="p-4 bg-muted rounded-lg">
+              <h3 className="font-semibold mb-2">✓ Direct Backend Access</h3>
+              <p className="text-sm text-muted-foreground">
+                Securely access databases, file systems, and APIs without
+                exposing credentials
+              </p>
+            </div>
+            <div className="p-4 bg-muted rounded-lg">
+              <h3 className="font-semibold mb-2">✓ Better Performance</h3>
+              <p className="text-sm text-muted-foreground">
+                Faster initial page load with pre-rendered HTML sent from the
+                server
+              </p>
+            </div>
+            <div className="p-4 bg-muted rounded-lg">
+              <h3 className="font-semibold mb-2">✓ SEO Optimized</h3>
+              <p className="text-sm text-muted-foreground">
+                Fully rendered content is available to search engines and social
+                media crawlers
+              </p>
+            </div>
+          </div>
+        </div>
+
+        {/* How It Works */}
+        <div className="rounded-lg border bg-card p-6 space-y-4">
+          <h2 className="text-2xl font-bold mb-4">How SSR Works</h2>
+          <div className="space-y-3 text-sm">
+            <p>
+              <span className="font-semibold">1. Server Execution:</span> The
+              server processes the request and executes React components
+            </p>
+            <p>
+              <span className="font-semibold">2. HTML Generation:</span> React
+              renders components to HTML strings on the server
+            </p>
+            <p>
+              <span className="font-semibold">3. Initial Response:</span> Fully
+              rendered HTML is sent to the client for immediate display
+            </p>
+            <p>
+              <span className="font-semibold">4. Hydration:</span> JavaScript
+              bundle loads and hydrates the HTML to make it interactive
+            </p>
+          </div>
+        </div>
+
+        {/* React Server Components Info */}
+        <div className="rounded-lg border bg-card p-6 space-y-4">
+          <h2 className="text-2xl font-bold mb-4">
+            React Server Components (RSC)
+          </h2>
+          <div className="space-y-3 text-sm">
+            <p>
+              <span className="font-semibold">• First introduced in 2020</span>{" "}
+              - Officially released with React 19 (December 2024)
+            </p>
+            <p>
+              <span className="font-semibold">• Server-side Rendering</span> -
+              RSCs are rendered on the server allowing direct access to
+              databases and file systems. However, they cannot handle
+              client-side interactivity
+            </p>
+            <p>
+              <span className="font-semibold">• Best for Static Content</span> -
+              Suited for large and non-interactive content (e.g., items lists,
+              data feeds)
+            </p>
+          </div>
+        </div>
+      </div>
+    </main>
   );
 }
