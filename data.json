@@ -1,0 +1,5453 @@
+{"testInfo": {
+  "Test Info": {
+    "Start Time": "2025-11-06 20:59:58",
+    "End Time": "2025-11-06 21:00:08",
+    "Duration": "0 min 10 sec"
+  },
+  "App Info": {
+    "Version": "1.4",
+    "License Expiry Date": "12/31/2025"
+  },
+  "Device Info": {
+    "Power Source": "AC",
+    "OS Name": "Microsoft Windows 11 Enterprise",
+    "OS Version": "64-bit 10.0.26100 (Build 26100.6899)",
+    "OS Manufacturer": "Microsoft Corporation",
+    "Computer Name": "HP-5CG2162MDD",
+    "Serial Number": "5CG2162MDD",
+    "Software Build Number": "21WWCVET601#SAB0#DAB0",
+    "System Manufacturer": "HP",
+    "Product Name": "HP EliteBook 840 G8 Notebook PC",
+    "System SKU": "3X9P5UC#AB0",
+    "Processor": "11th Gen Intel(R) Core(TM) i5-1145G7 @ 2.60GHz",
+    "BIOS Version/Date": "T37 Ver. 01.21.00, 4/9/2025",
+    "SMBIOS Version": "3.3",
+    "EC Version": "88.23",
+    "Memory Size": "15 GB",
+    "Memory List": "Hynix/Hyundai, 16 GB, 3200 MHz",
+    "Disk List": "PCIe SSD, 953 GB"
+  },
+  "Battery Info": {
+    "Manufacturer": "Hewlett-Packard",
+    "Serial Number": "02218 2022/02/09",
+    "Chemistry": "LIon",
+    "Design Capacity": "53015",
+    "FullCharge Capacity": "36798",
+    "Cycle Count": "322"
+  }
+},
+"overallIndicator": {
+  "schema": "PowerC.SystemOverallIndicators.v1",
+  "traceInfo": {
+    "sourceEtl": "C:\\repos\\PowerC_APP\\PowerC_APP\\bin\\Debug\\net8.0-windows10.0.19041.0\\win-x64\\ApexTransformer\\Resource\\Reports\\ETL\\PowerCTrace.etl",
+    "wallClockDurationMs": 6800.8399
+  },
+  "imageScore": {
+    "score": 24.63,
+    "margin": {
+      "upper": 90,
+      "lower": 60
+    }
+  },
+  "eventCounts": {
+    "wmiEvent11": 16,
+    "acpiEvent7": 52,
+    "e3Event37": 240
+  },
+  "cpuPackage": {
+    "breakdown": [
+      {
+        "state": "Idle",
+        "durationMs": 1675.0397000000046,
+        "percentOfWall": 24.63
+      },
+      {
+        "state": "Busy",
+        "durationMs": 5089.305099999995,
+        "percentOfWall": 74.83
+      }
+    ],
+    "histograms": {
+      "idle": [
+        {
+          "leMs": 1,
+          "durationMs": 303.8512000000023,
+          "percent": 4.47
+        },
+        {
+          "leMs": 5,
+          "durationMs": 365.4585000000003,
+          "percent": 5.37
+        },
+        {
+          "leMs": 7,
+          "durationMs": 88.97260000000028,
+          "percent": 1.31
+        },
+        {
+          "leMs": 10,
+          "durationMs": 249.20760000000246,
+          "percent": 3.66
+        },
+        {
+          "leMs": 15,
+          "durationMs": 605.9251000000004,
+          "percent": 8.91
+        },
+        {
+          "leMs": 16,
+          "durationMs": 61.62469999999894,
+          "percent": 0.91
+        },
+        {
+          "leMs": 30,
+          "durationMs": 0,
+          "percent": 0
+        },
+        {
+          "leMs": 50,
+          "durationMs": 0,
+          "percent": 0
+        },
+        {
+          "leMs": 100,
+          "durationMs": 0,
+          "percent": 0
+        },
+        {
+          "leMs": 500,
+          "durationMs": 0,
+          "percent": 0
+        },
+        {
+          "leMs": 1000,
+          "durationMs": 0,
+          "percent": 0
+        },
+        {
+          "leMs": 5000,
+          "durationMs": 0,
+          "percent": 0
+        },
+        {
+          "gtMs": 5000,
+          "durationMs": 0,
+          "percent": 0
+        }
+      ],
+      "busy": [
+        {
+          "leMs": 1,
+          "durationMs": 404.3693999999979,
+          "percent": 5.95
+        },
+        {
+          "leMs": 5,
+          "durationMs": 500.1479999999989,
+          "percent": 7.35
+        },
+        {
+          "leMs": 7,
+          "durationMs": 148.81020000000115,
+          "percent": 2.19
+        },
+        {
+          "leMs": 10,
+          "durationMs": 107.52879999999789,
+          "percent": 1.58
+        },
+        {
+          "leMs": 15,
+          "durationMs": 215.0373000000004,
+          "percent": 3.16
+        },
+        {
+          "leMs": 16,
+          "durationMs": 31.614900000000034,
+          "percent": 0.46
+        },
+        {
+          "leMs": 30,
+          "durationMs": 421.18649999999866,
+          "percent": 6.19
+        },
+        {
+          "leMs": 50,
+          "durationMs": 325.6246999999996,
+          "percent": 4.79
+        },
+        {
+          "leMs": 100,
+          "durationMs": 986.4545000000002,
+          "percent": 14.5
+        },
+        {
+          "leMs": 500,
+          "durationMs": 888.1726000000004,
+          "percent": 13.06
+        },
+        {
+          "leMs": 1000,
+          "durationMs": 0,
+          "percent": 0
+        },
+        {
+          "leMs": 5000,
+          "durationMs": 1060.3582000000001,
+          "percent": 15.59
+        },
+        {
+          "gtMs": 5000,
+          "durationMs": 0,
+          "percent": 0
+        }
+      ]
+    }
+  }
+},
+"statistic": [
+  {
+    "key": "0",
+    "name": "Image Score",
+    "data": "99",
+    "margin": {
+      "upper": 95,
+      "lower": 60
+    }
+  },
+  {
+    "key": "1",
+    "name": "Est. Power Consumption",
+    "data": "0",
+    "margin": {
+      "upper": 100,
+      "lower": 0
+    }
+  },
+  {
+    "key": "2",
+    "name": "Est. battery life",
+    "data": "-",
+    "margin": {
+      "upper": 100,
+      "lower": 0
+    }
+  }
+],
+"metrics": null,
+"resourceConsumptionTable": {
+  "showEmbeddedService": "true",
+  "totalWmiActivities": 16,
+  "margin": {
+    "cpuUsage": {
+      "upper": "0.02",
+      "lower": "0.2"
+    },
+    "wmiActivities": {
+      "upper": "100",
+      "lower": "500"
+    },
+    "energyConsumption": {
+      "upper": "100000",
+      "lower": "1000000"
+    },
+    "score": {
+      "upper": "95",
+      "lower": "60"
+    }
+  },
+  "tableData": [
+    {
+      "processName": "Idle",
+      "cpuUsage": 75.14,
+      "wmiActivitiesPercentage": 0,
+      "wmiActivitiesCount": 0,
+      "energyConsumption": 0,
+      "cpuEnergy": 0,
+      "diskEnergy": 0,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0,
+      "score": 100,
+      "observation": "",
+      "recommendation": ""
+    },
+    {
+      "processName": "svchost",
+      "cpuUsage": 5.74,
+      "wmiActivitiesPercentage": 37.5,
+      "wmiActivitiesCount": 6,
+      "energyConsumption": 0,
+      "cpuEnergy": 0,
+      "diskEnergy": 0,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0,
+      "score": 47.5,
+      "observation": "Windows native component;High\u00A0CPU usage\u00A0(top\u00A01);WMI activity (top 2);ACPI interrupt (top 5);Energy consumption (top 1)",
+      "recommendation": "Further debugging may be required;Profile \u0026 optimise loops / batch work"
+    },
+    {
+      "processName": "System",
+      "cpuUsage": 4.35,
+      "wmiActivitiesPercentage": 0,
+      "wmiActivitiesCount": 0,
+      "energyConsumption": 0,
+      "cpuEnergy": 0,
+      "diskEnergy": 0,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0,
+      "score": 100,
+      "observation": "",
+      "recommendation": ""
+    },
+    {
+      "processName": "TouchpointAnalyticsClientService",
+      "cpuUsage": 3.14,
+      "wmiActivitiesPercentage": 0,
+      "wmiActivitiesCount": 0,
+      "energyConsumption": 1462,
+      "cpuEnergy": 1442,
+      "diskEnergy": 20,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0,
+      "score": 49.9,
+      "observation": "High\u00A0CPU usage\u00A0(top\u00A02);Poor\u00A0idle\u00A0pattern",
+      "recommendation": "Profile \u0026 optimise loops / batch work;Release resources, sleep or wait when work completes"
+    },
+    {
+      "processName": "WmiPrvSE",
+      "cpuUsage": 1.84,
+      "wmiActivitiesPercentage": 0,
+      "wmiActivitiesCount": 0,
+      "energyConsumption": 0,
+      "cpuEnergy": 0,
+      "diskEnergy": 0,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0,
+      "score": 52.5,
+      "observation": "Windows native component;High\u00A0CPU usage\u00A0(top\u00A03)",
+      "recommendation": "Further debugging may be required;Profile \u0026 optimise loops / batch work"
+    },
+    {
+      "processName": "netsh",
+      "cpuUsage": 1.42,
+      "wmiActivitiesPercentage": 0,
+      "wmiActivitiesCount": 0,
+      "energyConsumption": 0,
+      "cpuEnergy": 0,
+      "diskEnergy": 0,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0,
+      "score": 47,
+      "observation": "High\u00A0CPU usage\u00A0(top\u00A04);Poor\u00A0idle\u00A0pattern",
+      "recommendation": "Profile \u0026 optimise loops / batch work;Release resources, sleep or wait when work completes"
+    },
+    {
+      "processName": "PowerC",
+      "cpuUsage": 1.28,
+      "wmiActivitiesPercentage": 0,
+      "wmiActivitiesCount": 0,
+      "energyConsumption": 5800,
+      "cpuEnergy": 5762,
+      "diskEnergy": 38,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0,
+      "score": 100,
+      "observation": "",
+      "recommendation": ""
+    },
+    {
+      "processName": "Unknown",
+      "cpuUsage": 1,
+      "wmiActivitiesPercentage": 0,
+      "wmiActivitiesCount": 0,
+      "energyConsumption": 0,
+      "cpuEnergy": 0,
+      "diskEnergy": 0,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0,
+      "score": 50.4,
+      "observation": "Windows native component;High\u00A0CPU usage\u00A0(top\u00A05);Poor\u00A0idle\u00A0pattern;WMI activity (top 3);ACPI interrupt (top 2)",
+      "recommendation": "Further debugging may be required;Profile \u0026 optimise loops / batch work;Release resources, sleep or wait when work completes"
+    },
+    {
+      "processName": "ZDPService",
+      "cpuUsage": 0.68,
+      "wmiActivitiesPercentage": 0,
+      "wmiActivitiesCount": 0,
+      "energyConsumption": 4871,
+      "cpuEnergy": 4871,
+      "diskEnergy": 0,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0,
+      "score": 59.4,
+      "observation": "High\u00A0CPU usage;Poor\u00A0idle\u00A0pattern",
+      "recommendation": "Profile \u0026 optimise loops / batch work;Release resources, sleep or wait when work completes"
+    },
+    {
+      "processName": "Zoom",
+      "cpuUsage": 0.58,
+      "wmiActivitiesPercentage": 0,
+      "wmiActivitiesCount": 0,
+      "energyConsumption": 7517,
+      "cpuEnergy": 7511,
+      "diskEnergy": 6,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0,
+      "score": 59.6,
+      "observation": "High\u00A0CPU usage;Poor\u00A0idle\u00A0pattern",
+      "recommendation": "Profile \u0026 optimise loops / batch work;Release resources, sleep or wait when work completes"
+    },
+    {
+      "processName": "devenv",
+      "cpuUsage": 0.43,
+      "wmiActivitiesPercentage": 0,
+      "wmiActivitiesCount": 0,
+      "energyConsumption": 17498,
+      "cpuEnergy": 13761,
+      "diskEnergy": 131,
+      "displayEnergy": 3597,
+      "networkEnergy": 9,
+      "socEnergy": 0,
+      "score": 65,
+      "observation": "High\u00A0CPU usage;Poor\u00A0idle\u00A0pattern;Energy consumption (top 5)",
+      "recommendation": "Profile \u0026 optimise loops / batch work;Release resources, sleep or wait when work completes"
+    },
+    {
+      "processName": "conhost",
+      "cpuUsage": 0.36,
+      "wmiActivitiesPercentage": 0,
+      "wmiActivitiesCount": 0,
+      "energyConsumption": 0,
+      "cpuEnergy": 0,
+      "diskEnergy": 0,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0,
+      "score": 69.4,
+      "observation": "Windows native component;High\u00A0CPU usage;Fair\u00A0idle\u00A0pattern;Energy consumption (top 4)",
+      "recommendation": "Further debugging may be required;Profile \u0026 optimise loops / batch work"
+    },
+    {
+      "processName": "MemCompression",
+      "cpuUsage": 0.35,
+      "wmiActivitiesPercentage": 0,
+      "wmiActivitiesCount": 0,
+      "energyConsumption": 2183,
+      "cpuEnergy": 2066,
+      "diskEnergy": 117,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0,
+      "score": 70,
+      "observation": "High\u00A0CPU usage;Fair\u00A0idle\u00A0pattern",
+      "recommendation": "Profile \u0026 optimise loops / batch work"
+    },
+    {
+      "processName": "services",
+      "cpuUsage": 0.33,
+      "wmiActivitiesPercentage": 0,
+      "wmiActivitiesCount": 0,
+      "energyConsumption": 0,
+      "cpuEnergy": 0,
+      "diskEnergy": 0,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0,
+      "score": 69.5,
+      "observation": "Windows native component;High\u00A0CPU usage;Fair\u00A0idle\u00A0pattern",
+      "recommendation": "Further debugging may be required;Profile \u0026 optimise loops / batch work"
+    },
+    {
+      "processName": "msedgewebview2",
+      "cpuUsage": 0.3,
+      "wmiActivitiesPercentage": 0,
+      "wmiActivitiesCount": 0,
+      "energyConsumption": 456,
+      "cpuEnergy": 451,
+      "diskEnergy": 5,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0,
+      "score": 72.5,
+      "observation": "High\u00A0CPU usage",
+      "recommendation": "Profile \u0026 optimise loops / batch work"
+    },
+    {
+      "processName": "LensService",
+      "cpuUsage": 0.29,
+      "wmiActivitiesPercentage": 0,
+      "wmiActivitiesCount": 0,
+      "energyConsumption": 6105,
+      "cpuEnergy": 6099,
+      "diskEnergy": 6,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0,
+      "score": 67,
+      "observation": "High\u00A0CPU usage;Poor\u00A0idle\u00A0pattern",
+      "recommendation": "Profile \u0026 optimise loops / batch work;Release resources, sleep or wait when work completes"
+    },
+    {
+      "processName": "CSFalconService",
+      "cpuUsage": 0.25,
+      "wmiActivitiesPercentage": 0,
+      "wmiActivitiesCount": 0,
+      "energyConsumption": 2390,
+      "cpuEnergy": 2390,
+      "diskEnergy": 0,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0,
+      "score": 70.9,
+      "observation": "High\u00A0CPU usage;Poor\u00A0idle\u00A0pattern",
+      "recommendation": "Profile \u0026 optimise loops / batch work;Release resources, sleep or wait when work completes"
+    },
+    {
+      "processName": "lsass",
+      "cpuUsage": 0.19,
+      "wmiActivitiesPercentage": 0,
+      "wmiActivitiesCount": 0,
+      "energyConsumption": 0,
+      "cpuEnergy": 0,
+      "diskEnergy": 0,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0,
+      "score": 60.2,
+      "observation": "Windows native component;Moderate\u00A0CPU usage;Fair\u00A0idle\u00A0pattern;WMI activity (top 5);ACPI interrupt (top 4)",
+      "recommendation": "Further debugging may be required;Consider reducing polling frequency"
+    },
+    {
+      "processName": "Microsoft.Management.Services.IntuneWindowsAgent",
+      "cpuUsage": 0.16,
+      "wmiActivitiesPercentage": 62.5,
+      "wmiActivitiesCount": 10,
+      "energyConsumption": 292,
+      "cpuEnergy": 281,
+      "diskEnergy": 11,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0,
+      "score": 65.4,
+      "observation": "Moderate\u00A0CPU usage;Fair\u00A0idle\u00A0pattern;WMI activity (top 1)",
+      "recommendation": "Consider reducing polling frequency"
+    },
+    {
+      "processName": "DefendpointService",
+      "cpuUsage": 0.13,
+      "wmiActivitiesPercentage": 0,
+      "wmiActivitiesCount": 0,
+      "energyConsumption": 5594,
+      "cpuEnergy": 5583,
+      "diskEnergy": 11,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0,
+      "score": 75.9,
+      "observation": "Moderate\u00A0CPU usage",
+      "recommendation": "Consider reducing polling frequency"
+    },
+    {
+      "processName": "chrome",
+      "cpuUsage": 0.12,
+      "wmiActivitiesPercentage": 0,
+      "wmiActivitiesCount": 0,
+      "energyConsumption": 43491,
+      "cpuEnergy": 43388,
+      "diskEnergy": 101,
+      "displayEnergy": 0,
+      "networkEnergy": 2,
+      "socEnergy": 0,
+      "score": 77.3,
+      "observation": "Moderate\u00A0CPU usage;Energy consumption (top 2)",
+      "recommendation": "Consider reducing polling frequency"
+    },
+    {
+      "processName": "LegacyHost",
+      "cpuUsage": 0.11,
+      "wmiActivitiesPercentage": 0,
+      "wmiActivitiesCount": 0,
+      "energyConsumption": 1729,
+      "cpuEnergy": 1729,
+      "diskEnergy": 0,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0,
+      "score": 73.6,
+      "observation": "Moderate\u00A0CPU usage;Poor\u00A0idle\u00A0pattern",
+      "recommendation": "Consider reducing polling frequency;Release resources, sleep or wait when work completes"
+    },
+    {
+      "processName": "csrss",
+      "cpuUsage": 0.11,
+      "wmiActivitiesPercentage": 0,
+      "wmiActivitiesCount": 0,
+      "energyConsumption": 0,
+      "cpuEnergy": 0,
+      "diskEnergy": 0,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0,
+      "score": 75.8,
+      "observation": "Windows native component;Moderate\u00A0CPU usage;Poor\u00A0idle\u00A0pattern;WMI activity (top 4);ACPI interrupt (top 3)",
+      "recommendation": "Further debugging may be required;Consider reducing polling frequency;Release resources, sleep or wait when work completes"
+    },
+    {
+      "processName": "NETSTAT",
+      "cpuUsage": 0.1,
+      "wmiActivitiesPercentage": 0,
+      "wmiActivitiesCount": 0,
+      "energyConsumption": 0,
+      "cpuEnergy": 0,
+      "diskEnergy": 0,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0,
+      "score": 75.4,
+      "observation": "Moderate\u00A0CPU usage;Poor\u00A0idle\u00A0pattern",
+      "recommendation": "Consider reducing polling frequency;Release resources, sleep or wait when work completes"
+    },
+    {
+      "processName": "dwm",
+      "cpuUsage": 0.06,
+      "wmiActivitiesPercentage": 0,
+      "wmiActivitiesCount": 0,
+      "energyConsumption": 0,
+      "cpuEnergy": 0,
+      "diskEnergy": 0,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0,
+      "score": 87.8,
+      "observation": "Windows native component;Moderate\u00A0CPU usage;Fair\u00A0idle\u00A0pattern",
+      "recommendation": "Further debugging may be required;Consider reducing polling frequency"
+    },
+    {
+      "processName": "PowerC_APP",
+      "cpuUsage": 0.06,
+      "wmiActivitiesPercentage": 0,
+      "wmiActivitiesCount": 0,
+      "energyConsumption": 126749,
+      "cpuEnergy": 48499,
+      "diskEnergy": 181,
+      "displayEnergy": 78069,
+      "networkEnergy": 0,
+      "socEnergy": 0,
+      "score": 100,
+      "observation": "",
+      "recommendation": ""
+    },
+    {
+      "processName": "explorer",
+      "cpuUsage": 0.05,
+      "wmiActivitiesPercentage": 0,
+      "wmiActivitiesCount": 0,
+      "energyConsumption": 2657,
+      "cpuEnergy": 2509,
+      "diskEnergy": 10,
+      "displayEnergy": 138,
+      "networkEnergy": 0,
+      "socEnergy": 0,
+      "score": 91.1,
+      "observation": "Moderate\u00A0CPU usage;Fair\u00A0idle\u00A0pattern",
+      "recommendation": "Consider reducing polling frequency"
+    },
+    {
+      "processName": "WmiApSrv",
+      "cpuUsage": 0.05,
+      "wmiActivitiesPercentage": 0,
+      "wmiActivitiesCount": 0,
+      "energyConsumption": 0,
+      "cpuEnergy": 0,
+      "diskEnergy": 0,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0,
+      "score": 83.6,
+      "observation": "Moderate\u00A0CPU usage;ACPI interrupt (top 1)",
+      "recommendation": "Consider reducing polling frequency"
+    },
+    {
+      "processName": "ZSATunnel",
+      "cpuUsage": 0.04,
+      "wmiActivitiesPercentage": 0,
+      "wmiActivitiesCount": 0,
+      "energyConsumption": 1944,
+      "cpuEnergy": 1915,
+      "diskEnergy": 0,
+      "displayEnergy": 0,
+      "networkEnergy": 29,
+      "socEnergy": 0,
+      "score": 90.2,
+      "observation": "Moderate\u00A0CPU usage;Poor\u00A0idle\u00A0pattern",
+      "recommendation": "Consider reducing polling frequency;Release resources, sleep or wait when work completes"
+    },
+    {
+      "processName": "TokenUtility",
+      "cpuUsage": 0.04,
+      "wmiActivitiesPercentage": 0,
+      "wmiActivitiesCount": 0,
+      "energyConsumption": 682,
+      "cpuEnergy": 682,
+      "diskEnergy": 0,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0,
+      "score": 95.5,
+      "observation": "Moderate\u00A0CPU usage",
+      "recommendation": "Consider reducing polling frequency"
+    },
+    {
+      "processName": "USBHubSvc",
+      "cpuUsage": 0.04,
+      "wmiActivitiesPercentage": 0,
+      "wmiActivitiesCount": 0,
+      "energyConsumption": 553,
+      "cpuEnergy": 553,
+      "diskEnergy": 0,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0,
+      "score": 87.9,
+      "observation": "Moderate\u00A0CPU usage;Poor\u00A0idle\u00A0pattern",
+      "recommendation": "Consider reducing polling frequency;Release resources, sleep or wait when work completes"
+    },
+    {
+      "processName": "ZSATray",
+      "cpuUsage": 0.04,
+      "wmiActivitiesPercentage": 0,
+      "wmiActivitiesCount": 0,
+      "energyConsumption": 484,
+      "cpuEnergy": 481,
+      "diskEnergy": 3,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0,
+      "score": 90.5,
+      "observation": "Moderate\u00A0CPU usage;Poor\u00A0idle\u00A0pattern",
+      "recommendation": "Consider reducing polling frequency;Release resources, sleep or wait when work completes"
+    },
+    {
+      "processName": "HPTouchpointManagerTray",
+      "cpuUsage": 0.03,
+      "wmiActivitiesPercentage": 0,
+      "wmiActivitiesCount": 0,
+      "energyConsumption": 367,
+      "cpuEnergy": 364,
+      "diskEnergy": 3,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0,
+      "score": 94.4,
+      "observation": "Moderate\u00A0CPU usage;Fair\u00A0idle\u00A0pattern",
+      "recommendation": "Consider reducing polling frequency"
+    },
+    {
+      "processName": "ZSATrayManager",
+      "cpuUsage": 0.03,
+      "wmiActivitiesPercentage": 0,
+      "wmiActivitiesCount": 0,
+      "energyConsumption": 387,
+      "cpuEnergy": 375,
+      "diskEnergy": 12,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0,
+      "score": 94.7,
+      "observation": "Moderate\u00A0CPU usage;Fair\u00A0idle\u00A0pattern",
+      "recommendation": "Consider reducing polling frequency"
+    },
+    {
+      "processName": "RuntimeBroker",
+      "cpuUsage": 0.03,
+      "wmiActivitiesPercentage": 0,
+      "wmiActivitiesCount": 0,
+      "energyConsumption": 0,
+      "cpuEnergy": 0,
+      "diskEnergy": 0,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0,
+      "score": 96.9,
+      "observation": "Windows native component;Moderate\u00A0CPU usage",
+      "recommendation": "Further debugging may be required;Consider reducing polling frequency"
+    },
+    {
+      "processName": "ServiceHub.Host.dotnet.x64",
+      "cpuUsage": 0.02,
+      "wmiActivitiesPercentage": 0,
+      "wmiActivitiesCount": 0,
+      "energyConsumption": 902,
+      "cpuEnergy": 896,
+      "diskEnergy": 6,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0,
+      "score": 95,
+      "observation": "Moderate\u00A0CPU usage;Fair\u00A0idle\u00A0pattern",
+      "recommendation": "Consider reducing polling frequency"
+    },
+    {
+      "processName": "HP.ClientSecurityManager",
+      "cpuUsage": 0.02,
+      "wmiActivitiesPercentage": 0,
+      "wmiActivitiesCount": 0,
+      "energyConsumption": 338,
+      "cpuEnergy": 326,
+      "diskEnergy": 12,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0,
+      "score": 97.5,
+      "observation": "Moderate\u00A0CPU usage",
+      "recommendation": "Consider reducing polling frequency"
+    },
+    {
+      "processName": "SearchIndexer",
+      "cpuUsage": 0.02,
+      "wmiActivitiesPercentage": 0,
+      "wmiActivitiesCount": 0,
+      "energyConsumption": 0,
+      "cpuEnergy": 0,
+      "diskEnergy": 0,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0,
+      "score": 96.5,
+      "observation": "Windows native component;Fair\u00A0idle\u00A0pattern",
+      "recommendation": "Further debugging may be required"
+    },
+    {
+      "processName": "Avecto.IC3.Client.Host",
+      "cpuUsage": 0.02,
+      "wmiActivitiesPercentage": 0,
+      "wmiActivitiesCount": 0,
+      "energyConsumption": 1039,
+      "cpuEnergy": 1028,
+      "diskEnergy": 9,
+      "displayEnergy": 0,
+      "networkEnergy": 2,
+      "socEnergy": 0,
+      "score": 94.6,
+      "observation": "Poor\u00A0idle\u00A0pattern",
+      "recommendation": "Release resources, sleep or wait when work completes"
+    },
+    {
+      "processName": "WUDFHost",
+      "cpuUsage": 0.02,
+      "wmiActivitiesPercentage": 0,
+      "wmiActivitiesCount": 0,
+      "energyConsumption": 0,
+      "cpuEnergy": 0,
+      "diskEnergy": 0,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0,
+      "score": 100,
+      "observation": "Windows native component",
+      "recommendation": "Further debugging may be required"
+    },
+    {
+      "processName": "LRS.PersonalPrint.Service",
+      "cpuUsage": 0.02,
+      "wmiActivitiesPercentage": 0,
+      "wmiActivitiesCount": 0,
+      "energyConsumption": 247,
+      "cpuEnergy": 247,
+      "diskEnergy": 0,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0,
+      "score": 95.9,
+      "observation": "Fair\u00A0idle\u00A0pattern",
+      "recommendation": ""
+    },
+    {
+      "processName": "StartMenuExperienceHost",
+      "cpuUsage": 0.01,
+      "wmiActivitiesPercentage": 0,
+      "wmiActivitiesCount": 0,
+      "energyConsumption": 0,
+      "cpuEnergy": 0,
+      "diskEnergy": 0,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0,
+      "score": 97.8,
+      "observation": "Healthy",
+      "recommendation": ""
+    },
+    {
+      "processName": "zWebview2Agent",
+      "cpuUsage": 0.01,
+      "wmiActivitiesPercentage": 0,
+      "wmiActivitiesCount": 0,
+      "energyConsumption": 167,
+      "cpuEnergy": 167,
+      "diskEnergy": 0,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0,
+      "score": 93.4,
+      "observation": "Poor\u00A0idle\u00A0pattern",
+      "recommendation": "Release resources, sleep or wait when work completes"
+    },
+    {
+      "processName": "CSFalconContainer",
+      "cpuUsage": 0.01,
+      "wmiActivitiesPercentage": 0,
+      "wmiActivitiesCount": 0,
+      "energyConsumption": 149,
+      "cpuEnergy": 149,
+      "diskEnergy": 0,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0,
+      "score": 97,
+      "observation": "Healthy",
+      "recommendation": ""
+    },
+    {
+      "processName": "ZDPClassifier",
+      "cpuUsage": 0.01,
+      "wmiActivitiesPercentage": 0,
+      "wmiActivitiesCount": 0,
+      "energyConsumption": 161,
+      "cpuEnergy": 160,
+      "diskEnergy": 1,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0,
+      "score": 97.4,
+      "observation": "Healthy",
+      "recommendation": ""
+    },
+    {
+      "processName": "ZDPApp",
+      "cpuUsage": 0.01,
+      "wmiActivitiesPercentage": 0,
+      "wmiActivitiesCount": 0,
+      "energyConsumption": 172,
+      "cpuEnergy": 172,
+      "diskEnergy": 0,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0,
+      "score": 93.9,
+      "observation": "Poor\u00A0idle\u00A0pattern",
+      "recommendation": "Release resources, sleep or wait when work completes"
+    },
+    {
+      "processName": "PolyLensCallControlApp",
+      "cpuUsage": 0.01,
+      "wmiActivitiesPercentage": 0,
+      "wmiActivitiesCount": 0,
+      "energyConsumption": 142,
+      "cpuEnergy": 140,
+      "diskEnergy": 2,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0,
+      "score": 94,
+      "observation": "Poor\u00A0idle\u00A0pattern",
+      "recommendation": "Release resources, sleep or wait when work completes"
+    },
+    {
+      "processName": "BrService",
+      "cpuUsage": 0.01,
+      "wmiActivitiesPercentage": 0,
+      "wmiActivitiesCount": 0,
+      "energyConsumption": 50,
+      "cpuEnergy": 49,
+      "diskEnergy": 1,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0,
+      "score": 100,
+      "observation": "Healthy",
+      "recommendation": ""
+    },
+    {
+      "processName": "BrHostSvr",
+      "cpuUsage": 0.01,
+      "wmiActivitiesPercentage": 0,
+      "wmiActivitiesCount": 0,
+      "energyConsumption": 380,
+      "cpuEnergy": 379,
+      "diskEnergy": 1,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0,
+      "score": 97.5,
+      "observation": "Healthy",
+      "recommendation": ""
+    },
+    {
+      "processName": "tailscale-ipn",
+      "cpuUsage": 0.01,
+      "wmiActivitiesPercentage": 0,
+      "wmiActivitiesCount": 0,
+      "energyConsumption": 136,
+      "cpuEnergy": 136,
+      "diskEnergy": 0,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0,
+      "score": 99.7,
+      "observation": "Healthy",
+      "recommendation": ""
+    },
+    {
+      "processName": "CrossDeviceService",
+      "cpuUsage": 0.01,
+      "wmiActivitiesPercentage": 0,
+      "wmiActivitiesCount": 0,
+      "energyConsumption": 0,
+      "cpuEnergy": 0,
+      "diskEnergy": 0,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0,
+      "score": 98.4,
+      "observation": "Healthy",
+      "recommendation": ""
+    },
+    {
+      "processName": "tailscaled",
+      "cpuUsage": 0.01,
+      "wmiActivitiesPercentage": 0,
+      "wmiActivitiesCount": 0,
+      "energyConsumption": 185,
+      "cpuEnergy": 145,
+      "diskEnergy": 0,
+      "displayEnergy": 0,
+      "networkEnergy": 40,
+      "socEnergy": 0,
+      "score": 98.6,
+      "observation": "Healthy",
+      "recommendation": ""
+    },
+    {
+      "processName": "lens-desktop",
+      "cpuUsage": 0.01,
+      "wmiActivitiesPercentage": 0,
+      "wmiActivitiesCount": 0,
+      "energyConsumption": 270,
+      "cpuEnergy": 270,
+      "diskEnergy": 0,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0,
+      "score": 99.1,
+      "observation": "Healthy",
+      "recommendation": ""
+    },
+    {
+      "processName": "InventoryService",
+      "cpuUsage": 0.01,
+      "wmiActivitiesPercentage": 0,
+      "wmiActivitiesCount": 0,
+      "energyConsumption": 90,
+      "cpuEnergy": 88,
+      "diskEnergy": 2,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0,
+      "score": 95.9,
+      "observation": "Fair\u00A0idle\u00A0pattern",
+      "recommendation": ""
+    },
+    {
+      "processName": "ms-teams_modulehost",
+      "cpuUsage": 0.01,
+      "wmiActivitiesPercentage": 0,
+      "wmiActivitiesCount": 0,
+      "energyConsumption": 0,
+      "cpuEnergy": 0,
+      "diskEnergy": 0,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0,
+      "score": 95.8,
+      "observation": "Fair\u00A0idle\u00A0pattern",
+      "recommendation": ""
+    },
+    {
+      "processName": "PanGPS",
+      "cpuUsage": 0.01,
+      "wmiActivitiesPercentage": 0,
+      "wmiActivitiesCount": 0,
+      "energyConsumption": 91,
+      "cpuEnergy": 91,
+      "diskEnergy": 0,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0,
+      "score": 94.6,
+      "observation": "Poor\u00A0idle\u00A0pattern",
+      "recommendation": "Release resources, sleep or wait when work completes"
+    },
+    {
+      "processName": "ServiceHub.IntellicodeModelService",
+      "cpuUsage": 0.01,
+      "wmiActivitiesPercentage": 0,
+      "wmiActivitiesCount": 0,
+      "energyConsumption": 60,
+      "cpuEnergy": 59,
+      "diskEnergy": 1,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0,
+      "score": 96,
+      "observation": "Fair\u00A0idle\u00A0pattern",
+      "recommendation": ""
+    },
+    {
+      "processName": "Registry",
+      "cpuUsage": 0.01,
+      "wmiActivitiesPercentage": 0,
+      "wmiActivitiesCount": 0,
+      "energyConsumption": 92,
+      "cpuEnergy": 10,
+      "diskEnergy": 82,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0,
+      "score": 90,
+      "observation": "Poor\u00A0idle\u00A0pattern",
+      "recommendation": "Release resources, sleep or wait when work completes"
+    },
+    {
+      "processName": "SearchHost",
+      "cpuUsage": 0.01,
+      "wmiActivitiesPercentage": 0,
+      "wmiActivitiesCount": 0,
+      "energyConsumption": 0,
+      "cpuEnergy": 0,
+      "diskEnergy": 0,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0,
+      "score": 98.3,
+      "observation": "Healthy",
+      "recommendation": ""
+    },
+    {
+      "processName": "TeamViewer_Service",
+      "cpuUsage": 0.01,
+      "wmiActivitiesPercentage": 0,
+      "wmiActivitiesCount": 0,
+      "energyConsumption": 68,
+      "cpuEnergy": 68,
+      "diskEnergy": 0,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0,
+      "score": 96,
+      "observation": "Fair\u00A0idle\u00A0pattern",
+      "recommendation": ""
+    },
+    {
+      "processName": "PanGPA",
+      "cpuUsage": 0.01,
+      "wmiActivitiesPercentage": 0,
+      "wmiActivitiesCount": 0,
+      "energyConsumption": 59,
+      "cpuEnergy": 59,
+      "diskEnergy": 0,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0,
+      "score": 95.5,
+      "observation": "Fair\u00A0idle\u00A0pattern",
+      "recommendation": ""
+    },
+    {
+      "processName": "LHAgent",
+      "cpuUsage": 0,
+      "wmiActivitiesPercentage": 0,
+      "wmiActivitiesCount": 0,
+      "energyConsumption": 62,
+      "cpuEnergy": 59,
+      "diskEnergy": 3,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0,
+      "score": 95.9,
+      "observation": "Fair\u00A0idle\u00A0pattern",
+      "recommendation": ""
+    },
+    {
+      "processName": "IGCCTray",
+      "cpuUsage": 0,
+      "wmiActivitiesPercentage": 0,
+      "wmiActivitiesCount": 0,
+      "energyConsumption": 0,
+      "cpuEnergy": 0,
+      "diskEnergy": 0,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0,
+      "score": 100,
+      "observation": "No measurable activity",
+      "recommendation": ""
+    },
+    {
+      "processName": "msedge",
+      "cpuUsage": 0,
+      "wmiActivitiesPercentage": 0,
+      "wmiActivitiesCount": 0,
+      "energyConsumption": 121,
+      "cpuEnergy": 117,
+      "diskEnergy": 4,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0,
+      "score": 99.9,
+      "observation": "Healthy",
+      "recommendation": ""
+    },
+    {
+      "processName": "unsecapp",
+      "cpuUsage": 0,
+      "wmiActivitiesPercentage": 0,
+      "wmiActivitiesCount": 0,
+      "energyConsumption": 0,
+      "cpuEnergy": 0,
+      "diskEnergy": 0,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0,
+      "score": 90,
+      "observation": "Poor\u00A0idle\u00A0pattern",
+      "recommendation": "Release resources, sleep or wait when work completes"
+    },
+    {
+      "processName": "UltraViewer_Service",
+      "cpuUsage": 0,
+      "wmiActivitiesPercentage": 0,
+      "wmiActivitiesCount": 0,
+      "energyConsumption": 41,
+      "cpuEnergy": 37,
+      "diskEnergy": 4,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0,
+      "score": 95.9,
+      "observation": "Fair\u00A0idle\u00A0pattern",
+      "recommendation": ""
+    },
+    {
+      "processName": "RtkAudUService64",
+      "cpuUsage": 0,
+      "wmiActivitiesPercentage": 0,
+      "wmiActivitiesCount": 0,
+      "energyConsumption": 0,
+      "cpuEnergy": 0,
+      "diskEnergy": 0,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0,
+      "score": 99.2,
+      "observation": "Healthy",
+      "recommendation": ""
+    },
+    {
+      "processName": "PerfWatson2",
+      "cpuUsage": 0,
+      "wmiActivitiesPercentage": 0,
+      "wmiActivitiesCount": 0,
+      "energyConsumption": 991,
+      "cpuEnergy": 991,
+      "diskEnergy": 0,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0,
+      "score": 99.6,
+      "observation": "Healthy",
+      "recommendation": ""
+    },
+    {
+      "processName": "mNHIICCService",
+      "cpuUsage": 0,
+      "wmiActivitiesPercentage": 0,
+      "wmiActivitiesCount": 0,
+      "energyConsumption": 32,
+      "cpuEnergy": 32,
+      "diskEnergy": 0,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0,
+      "score": 96,
+      "observation": "Fair\u00A0idle\u00A0pattern",
+      "recommendation": ""
+    },
+    {
+      "processName": "SysInfoCap",
+      "cpuUsage": 0,
+      "wmiActivitiesPercentage": 0,
+      "wmiActivitiesCount": 0,
+      "energyConsumption": 0,
+      "cpuEnergy": 0,
+      "diskEnergy": 0,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0,
+      "score": 99.6,
+      "observation": "Healthy",
+      "recommendation": ""
+    },
+    {
+      "processName": "TextInputHost",
+      "cpuUsage": 0,
+      "wmiActivitiesPercentage": 0,
+      "wmiActivitiesCount": 0,
+      "energyConsumption": 0,
+      "cpuEnergy": 0,
+      "diskEnergy": 0,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0,
+      "score": 100,
+      "observation": "No measurable activity",
+      "recommendation": ""
+    },
+    {
+      "processName": "PresentMonService",
+      "cpuUsage": 0,
+      "wmiActivitiesPercentage": 0,
+      "wmiActivitiesCount": 0,
+      "energyConsumption": 0,
+      "cpuEnergy": 0,
+      "diskEnergy": 0,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0,
+      "score": 100,
+      "observation": "No measurable activity",
+      "recommendation": ""
+    },
+    {
+      "processName": "OneApp.IGCC.WinService",
+      "cpuUsage": 0,
+      "wmiActivitiesPercentage": 0,
+      "wmiActivitiesCount": 0,
+      "energyConsumption": 0,
+      "cpuEnergy": 0,
+      "diskEnergy": 0,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0,
+      "score": 100,
+      "observation": "Healthy",
+      "recommendation": ""
+    },
+    {
+      "processName": "CastSrv",
+      "cpuUsage": 0,
+      "wmiActivitiesPercentage": 0,
+      "wmiActivitiesCount": 0,
+      "energyConsumption": 0,
+      "cpuEnergy": 0,
+      "diskEnergy": 0,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0,
+      "score": 99.9,
+      "observation": "Healthy",
+      "recommendation": ""
+    },
+    {
+      "processName": "ServiceHub.IdentityHost",
+      "cpuUsage": 0,
+      "wmiActivitiesPercentage": 0,
+      "wmiActivitiesCount": 0,
+      "energyConsumption": 20,
+      "cpuEnergy": 19,
+      "diskEnergy": 1,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0,
+      "score": 99.7,
+      "observation": "Healthy",
+      "recommendation": ""
+    },
+    {
+      "processName": "IGCC",
+      "cpuUsage": 0,
+      "wmiActivitiesPercentage": 0,
+      "wmiActivitiesCount": 0,
+      "energyConsumption": 0,
+      "cpuEnergy": 0,
+      "diskEnergy": 0,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0,
+      "score": 100,
+      "observation": "No measurable activity",
+      "recommendation": ""
+    },
+    {
+      "processName": "OfficeClickToRun",
+      "cpuUsage": 0,
+      "wmiActivitiesPercentage": 0,
+      "wmiActivitiesCount": 0,
+      "energyConsumption": 18,
+      "cpuEnergy": 17,
+      "diskEnergy": 1,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0,
+      "score": 98.4,
+      "observation": "Healthy",
+      "recommendation": ""
+    },
+    {
+      "processName": "BrConsole",
+      "cpuUsage": 0,
+      "wmiActivitiesPercentage": 0,
+      "wmiActivitiesCount": 0,
+      "energyConsumption": 30,
+      "cpuEnergy": 26,
+      "diskEnergy": 4,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0,
+      "score": 100,
+      "observation": "Healthy",
+      "recommendation": ""
+    },
+    {
+      "processName": "ms-teams",
+      "cpuUsage": 0,
+      "wmiActivitiesPercentage": 0,
+      "wmiActivitiesCount": 0,
+      "energyConsumption": 0,
+      "cpuEnergy": 0,
+      "diskEnergy": 0,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0,
+      "score": 100,
+      "observation": "No measurable activity",
+      "recommendation": ""
+    },
+    {
+      "processName": "SoftwarePackageManager",
+      "cpuUsage": 0,
+      "wmiActivitiesPercentage": 0,
+      "wmiActivitiesCount": 0,
+      "energyConsumption": 18,
+      "cpuEnergy": 18,
+      "diskEnergy": 0,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0,
+      "score": 99.2,
+      "observation": "Healthy",
+      "recommendation": ""
+    },
+    {
+      "processName": "CoreProvider",
+      "cpuUsage": 0,
+      "wmiActivitiesPercentage": 0,
+      "wmiActivitiesCount": 0,
+      "energyConsumption": 20,
+      "cpuEnergy": 20,
+      "diskEnergy": 0,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0,
+      "score": 100,
+      "observation": "Healthy",
+      "recommendation": ""
+    },
+    {
+      "processName": "ShellHost",
+      "cpuUsage": 0,
+      "wmiActivitiesPercentage": 0,
+      "wmiActivitiesCount": 0,
+      "energyConsumption": 0,
+      "cpuEnergy": 0,
+      "diskEnergy": 0,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0,
+      "score": 90,
+      "observation": "Poor\u00A0idle\u00A0pattern",
+      "recommendation": "Release resources, sleep or wait when work completes"
+    },
+    {
+      "processName": "ZSAService",
+      "cpuUsage": 0,
+      "wmiActivitiesPercentage": 0,
+      "wmiActivitiesCount": 0,
+      "energyConsumption": 12,
+      "cpuEnergy": 12,
+      "diskEnergy": 0,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0,
+      "score": 96,
+      "observation": "Fair\u00A0idle\u00A0pattern",
+      "recommendation": ""
+    },
+    {
+      "processName": "ServiceHub.DataWarehouseHost",
+      "cpuUsage": 0,
+      "wmiActivitiesPercentage": 0,
+      "wmiActivitiesCount": 0,
+      "energyConsumption": 31,
+      "cpuEnergy": 30,
+      "diskEnergy": 1,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0,
+      "score": 96,
+      "observation": "Fair\u00A0idle\u00A0pattern",
+      "recommendation": ""
+    },
+    {
+      "processName": "SynTPEnh",
+      "cpuUsage": 0,
+      "wmiActivitiesPercentage": 0,
+      "wmiActivitiesCount": 0,
+      "energyConsumption": 0,
+      "cpuEnergy": 0,
+      "diskEnergy": 0,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0,
+      "score": 99.2,
+      "observation": "Healthy",
+      "recommendation": ""
+    },
+    {
+      "processName": "audiodg",
+      "cpuUsage": 0,
+      "wmiActivitiesPercentage": 0,
+      "wmiActivitiesCount": 0,
+      "energyConsumption": 0,
+      "cpuEnergy": 0,
+      "diskEnergy": 0,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0,
+      "score": 100,
+      "observation": "Healthy",
+      "recommendation": ""
+    },
+    {
+      "processName": "sihost",
+      "cpuUsage": 0,
+      "wmiActivitiesPercentage": 0,
+      "wmiActivitiesCount": 0,
+      "energyConsumption": 0,
+      "cpuEnergy": 0,
+      "diskEnergy": 0,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0,
+      "score": 96,
+      "observation": "Fair\u00A0idle\u00A0pattern",
+      "recommendation": ""
+    },
+    {
+      "processName": "CsvToJsonConverter",
+      "cpuUsage": 0,
+      "wmiActivitiesPercentage": 0,
+      "wmiActivitiesCount": 0,
+      "energyConsumption": 5128,
+      "cpuEnergy": 5107,
+      "diskEnergy": 21,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0,
+      "score": 90,
+      "observation": "Poor\u00A0idle\u00A0pattern",
+      "recommendation": "Release resources, sleep or wait when work completes"
+    },
+    {
+      "processName": "Br-uxendm",
+      "cpuUsage": 0,
+      "wmiActivitiesPercentage": 0,
+      "wmiActivitiesCount": 0,
+      "energyConsumption": 9,
+      "cpuEnergy": 9,
+      "diskEnergy": 0,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0,
+      "score": 99.2,
+      "observation": "Healthy",
+      "recommendation": ""
+    },
+    {
+      "processName": "ServiceHub.VSDetouredHost",
+      "cpuUsage": 0,
+      "wmiActivitiesPercentage": 0,
+      "wmiActivitiesCount": 0,
+      "energyConsumption": 44,
+      "cpuEnergy": 43,
+      "diskEnergy": 1,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0,
+      "score": 98.8,
+      "observation": "Healthy",
+      "recommendation": ""
+    },
+    {
+      "processName": "ndrvx",
+      "cpuUsage": 0,
+      "wmiActivitiesPercentage": 0,
+      "wmiActivitiesCount": 0,
+      "energyConsumption": 5,
+      "cpuEnergy": 5,
+      "diskEnergy": 0,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0,
+      "score": 100,
+      "observation": "Healthy",
+      "recommendation": ""
+    },
+    {
+      "processName": "SecurityHealthService",
+      "cpuUsage": 0,
+      "wmiActivitiesPercentage": 0,
+      "wmiActivitiesCount": 0,
+      "energyConsumption": 0,
+      "cpuEnergy": 0,
+      "diskEnergy": 0,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0,
+      "score": 96,
+      "observation": "Fair\u00A0idle\u00A0pattern",
+      "recommendation": ""
+    },
+    {
+      "processName": "ms-teamsupdate",
+      "cpuUsage": 0,
+      "wmiActivitiesPercentage": 0,
+      "wmiActivitiesCount": 0,
+      "energyConsumption": 0,
+      "cpuEnergy": 0,
+      "diskEnergy": 0,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0,
+      "score": 100,
+      "observation": "No measurable activity",
+      "recommendation": ""
+    },
+    {
+      "processName": "spoolsv",
+      "cpuUsage": 0,
+      "wmiActivitiesPercentage": 0,
+      "wmiActivitiesCount": 0,
+      "energyConsumption": 0,
+      "cpuEnergy": 0,
+      "diskEnergy": 0,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0,
+      "score": 99.3,
+      "observation": "Healthy",
+      "recommendation": ""
+    },
+    {
+      "processName": "OneDrive",
+      "cpuUsage": 0,
+      "wmiActivitiesPercentage": 0,
+      "wmiActivitiesCount": 0,
+      "energyConsumption": 25,
+      "cpuEnergy": 21,
+      "diskEnergy": 4,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0,
+      "score": 100,
+      "observation": "Healthy",
+      "recommendation": ""
+    },
+    {
+      "processName": "logioptionsplus_updater",
+      "cpuUsage": 0,
+      "wmiActivitiesPercentage": 0,
+      "wmiActivitiesCount": 0,
+      "energyConsumption": 7,
+      "cpuEnergy": 7,
+      "diskEnergy": 0,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0,
+      "score": 99.8,
+      "observation": "Healthy",
+      "recommendation": ""
+    },
+    {
+      "processName": "AnyDesk",
+      "cpuUsage": 0,
+      "wmiActivitiesPercentage": 0,
+      "wmiActivitiesCount": 0,
+      "energyConsumption": 5,
+      "cpuEnergy": 2,
+      "diskEnergy": 3,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0,
+      "score": 100,
+      "observation": "Healthy",
+      "recommendation": ""
+    },
+    {
+      "processName": "ServiceHub.IndexingService",
+      "cpuUsage": 0,
+      "wmiActivitiesPercentage": 0,
+      "wmiActivitiesCount": 0,
+      "energyConsumption": 181,
+      "cpuEnergy": 181,
+      "diskEnergy": 0,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0,
+      "score": 90,
+      "observation": "Poor\u00A0idle\u00A0pattern",
+      "recommendation": "Release resources, sleep or wait when work completes"
+    },
+    {
+      "processName": "ipoint",
+      "cpuUsage": 0,
+      "wmiActivitiesPercentage": 0,
+      "wmiActivitiesCount": 0,
+      "energyConsumption": 220,
+      "cpuEnergy": 220,
+      "diskEnergy": 0,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0,
+      "score": 100,
+      "observation": "Healthy",
+      "recommendation": ""
+    },
+    {
+      "processName": "logioptionsplus_appbroker",
+      "cpuUsage": 0,
+      "wmiActivitiesPercentage": 0,
+      "wmiActivitiesCount": 0,
+      "energyConsumption": 604,
+      "cpuEnergy": 604,
+      "diskEnergy": 0,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0,
+      "score": 90,
+      "observation": "Poor\u00A0idle\u00A0pattern",
+      "recommendation": "Release resources, sleep or wait when work completes"
+    },
+    {
+      "processName": "SecurityUpdateService",
+      "cpuUsage": 0,
+      "wmiActivitiesPercentage": 0,
+      "wmiActivitiesCount": 0,
+      "energyConsumption": 645,
+      "cpuEnergy": 645,
+      "diskEnergy": 0,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0,
+      "score": 100,
+      "observation": "Healthy",
+      "recommendation": ""
+    },
+    {
+      "processName": "OneDrive.Sync.Service",
+      "cpuUsage": 0,
+      "wmiActivitiesPercentage": 0,
+      "wmiActivitiesCount": 0,
+      "energyConsumption": 76,
+      "cpuEnergy": 76,
+      "diskEnergy": 0,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0,
+      "score": 100,
+      "observation": "Healthy",
+      "recommendation": ""
+    },
+    {
+      "processName": "Microsoft.ServiceHub.Controller",
+      "cpuUsage": 0,
+      "wmiActivitiesPercentage": 0,
+      "wmiActivitiesCount": 0,
+      "energyConsumption": 193,
+      "cpuEnergy": 191,
+      "diskEnergy": 2,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0,
+      "score": 90,
+      "observation": "Poor\u00A0idle\u00A0pattern",
+      "recommendation": "Release resources, sleep or wait when work completes"
+    },
+    {
+      "processName": "HotKeyServiceUWP",
+      "cpuUsage": 0,
+      "wmiActivitiesPercentage": 0,
+      "wmiActivitiesCount": 0,
+      "energyConsumption": 0,
+      "cpuEnergy": 0,
+      "diskEnergy": 0,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0,
+      "score": 100,
+      "observation": "Healthy",
+      "recommendation": ""
+    },
+    {
+      "processName": "CsSystemTray_7.28.20006.0",
+      "cpuUsage": 0,
+      "wmiActivitiesPercentage": 0,
+      "wmiActivitiesCount": 0,
+      "energyConsumption": 1,
+      "cpuEnergy": 1,
+      "diskEnergy": 0,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0,
+      "score": 100,
+      "observation": "Healthy",
+      "recommendation": ""
+    },
+    {
+      "processName": "ServiceHub.RoslynCodeAnalysisService",
+      "cpuUsage": 0,
+      "wmiActivitiesPercentage": 0,
+      "wmiActivitiesCount": 0,
+      "energyConsumption": 43132,
+      "cpuEnergy": 43118,
+      "diskEnergy": 14,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0,
+      "score": 100,
+      "observation": "Energy consumption (top 3)",
+      "recommendation": ""
+    },
+    {
+      "processName": "ServiceHub.ThreadedWaitDialog",
+      "cpuUsage": 0,
+      "wmiActivitiesPercentage": 0,
+      "wmiActivitiesCount": 0,
+      "energyConsumption": 68,
+      "cpuEnergy": 68,
+      "diskEnergy": 0,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0,
+      "score": 100,
+      "observation": "Healthy",
+      "recommendation": ""
+    },
+    {
+      "processName": "SynTPEnhService",
+      "cpuUsage": 0,
+      "wmiActivitiesPercentage": 0,
+      "wmiActivitiesCount": 0,
+      "energyConsumption": 0,
+      "cpuEnergy": 0,
+      "diskEnergy": 0,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0,
+      "score": 100,
+      "observation": "No measurable activity",
+      "recommendation": ""
+    }
+  ]
+},
+"cpuUsageTable": {
+  "margin": {},
+  "total": 99.1900000000001,
+  "tableData": [
+    {
+      "processName": "Idle",
+      "usage": 75.14,
+      "time": 40882.12
+    },
+    {
+      "processName": "svchost",
+      "usage": 5.74,
+      "time": 3123.52
+    },
+    {
+      "processName": "System",
+      "usage": 4.35,
+      "time": 2367.59
+    },
+    {
+      "processName": "TouchpointAnalyticsClientService",
+      "usage": 3.14,
+      "time": 1709.5
+    },
+    {
+      "processName": "WmiPrvSE",
+      "usage": 1.84,
+      "time": 1000.09
+    },
+    {
+      "processName": "netsh",
+      "usage": 1.42,
+      "time": 772.13
+    },
+    {
+      "processName": "PowerC",
+      "usage": 1.28,
+      "time": 695.24
+    },
+    {
+      "processName": "Unknown",
+      "usage": 1,
+      "time": 545.38
+    },
+    {
+      "processName": "ZDPService",
+      "usage": 0.68,
+      "time": 368.01
+    },
+    {
+      "processName": "Zoom",
+      "usage": 0.58,
+      "time": 317.39
+    },
+    {
+      "processName": "devenv",
+      "usage": 0.43,
+      "time": 234.52
+    },
+    {
+      "processName": "conhost",
+      "usage": 0.36,
+      "time": 194.19
+    },
+    {
+      "processName": "MemCompression",
+      "usage": 0.35,
+      "time": 190.62
+    },
+    {
+      "processName": "services",
+      "usage": 0.33,
+      "time": 181.25
+    },
+    {
+      "processName": "msedgewebview2",
+      "usage": 0.3,
+      "time": 164.94
+    },
+    {
+      "processName": "LensService",
+      "usage": 0.29,
+      "time": 158.69
+    },
+    {
+      "processName": "CSFalconService",
+      "usage": 0.25,
+      "time": 134.69
+    },
+    {
+      "processName": "lsass",
+      "usage": 0.19,
+      "time": 102.68
+    },
+    {
+      "processName": "Microsoft.Management.Services.IntuneWindowsAgent",
+      "usage": 0.16,
+      "time": 88.81
+    },
+    {
+      "processName": "DefendpointService",
+      "usage": 0.13,
+      "time": 68.62
+    },
+    {
+      "processName": "chrome",
+      "usage": 0.12,
+      "time": 64.72
+    },
+    {
+      "processName": "LegacyHost",
+      "usage": 0.11,
+      "time": 61.7
+    },
+    {
+      "processName": "csrss",
+      "usage": 0.11,
+      "time": 59.2
+    },
+    {
+      "processName": "NETSTAT",
+      "usage": 0.1,
+      "time": 56.05
+    },
+    {
+      "processName": "dwm",
+      "usage": 0.06,
+      "time": 34.12
+    },
+    {
+      "processName": "PowerC_APP",
+      "usage": 0.06,
+      "time": 32.01
+    },
+    {
+      "processName": "explorer",
+      "usage": 0.05,
+      "time": 25.45
+    },
+    {
+      "processName": "WmiApSrv",
+      "usage": 0.05,
+      "time": 24.53
+    },
+    {
+      "processName": "ZSATunnel",
+      "usage": 0.04,
+      "time": 23.15
+    },
+    {
+      "processName": "TokenUtility",
+      "usage": 0.04,
+      "time": 22.55
+    },
+    {
+      "processName": "USBHubSvc",
+      "usage": 0.04,
+      "time": 21.63
+    },
+    {
+      "processName": "ZSATray",
+      "usage": 0.04,
+      "time": 19.91
+    },
+    {
+      "processName": "HPTouchpointManagerTray",
+      "usage": 0.03,
+      "time": 14.83
+    },
+    {
+      "processName": "ZSATrayManager",
+      "usage": 0.03,
+      "time": 14.24
+    },
+    {
+      "processName": "RuntimeBroker",
+      "usage": 0.03,
+      "time": 13.91
+    },
+    {
+      "processName": "ServiceHub.Host.dotnet.x64",
+      "usage": 0.02,
+      "time": 13.45
+    },
+    {
+      "processName": "HP.ClientSecurityManager",
+      "usage": 0.02,
+      "time": 11.96
+    },
+    {
+      "processName": "SearchIndexer",
+      "usage": 0.02,
+      "time": 10.53
+    },
+    {
+      "processName": "Avecto.IC3.Client.Host",
+      "usage": 0.02,
+      "time": 9.79
+    },
+    {
+      "processName": "WUDFHost",
+      "usage": 0.02,
+      "time": 9.4
+    },
+    {
+      "processName": "LRS.PersonalPrint.Service",
+      "usage": 0.02,
+      "time": 8.32
+    },
+    {
+      "processName": "StartMenuExperienceHost",
+      "usage": 0.01,
+      "time": 7.96
+    },
+    {
+      "processName": "zWebview2Agent",
+      "usage": 0.01,
+      "time": 7.48
+    },
+    {
+      "processName": "CSFalconContainer",
+      "usage": 0.01,
+      "time": 7.34
+    },
+    {
+      "processName": "ZDPClassifier",
+      "usage": 0.01,
+      "time": 7.25
+    },
+    {
+      "processName": "ZDPApp",
+      "usage": 0.01,
+      "time": 7.15
+    },
+    {
+      "processName": "PolyLensCallControlApp",
+      "usage": 0.01,
+      "time": 6.71
+    },
+    {
+      "processName": "BrService",
+      "usage": 0.01,
+      "time": 5.93
+    },
+    {
+      "processName": "BrHostSvr",
+      "usage": 0.01,
+      "time": 5.75
+    },
+    {
+      "processName": "tailscale-ipn",
+      "usage": 0.01,
+      "time": 5.2
+    },
+    {
+      "processName": "CrossDeviceService",
+      "usage": 0.01,
+      "time": 4.9
+    },
+    {
+      "processName": "tailscaled",
+      "usage": 0.01,
+      "time": 4.87
+    },
+    {
+      "processName": "lens-desktop",
+      "usage": 0.01,
+      "time": 4.41
+    },
+    {
+      "processName": "InventoryService",
+      "usage": 0.01,
+      "time": 4.18
+    },
+    {
+      "processName": "ms-teams_modulehost",
+      "usage": 0.01,
+      "time": 3.83
+    },
+    {
+      "processName": "PanGPS",
+      "usage": 0.01,
+      "time": 3.78
+    },
+    {
+      "processName": "ServiceHub.IntellicodeModelService",
+      "usage": 0.01,
+      "time": 3.45
+    },
+    {
+      "processName": "Registry",
+      "usage": 0.01,
+      "time": 3.25
+    },
+    {
+      "processName": "SearchHost",
+      "usage": 0.01,
+      "time": 3.01
+    },
+    {
+      "processName": "TeamViewer_Service",
+      "usage": 0.01,
+      "time": 2.86
+    },
+    {
+      "processName": "PanGPA",
+      "usage": 0.01,
+      "time": 2.84
+    },
+    {
+      "processName": "LHAgent",
+      "usage": 0,
+      "time": 2.63
+    },
+    {
+      "processName": "IGCCTray",
+      "usage": 0,
+      "time": 2.42
+    },
+    {
+      "processName": "msedge",
+      "usage": 0,
+      "time": 1.85
+    },
+    {
+      "processName": "unsecapp",
+      "usage": 0,
+      "time": 1.85
+    },
+    {
+      "processName": "UltraViewer_Service",
+      "usage": 0,
+      "time": 1.75
+    },
+    {
+      "processName": "RtkAudUService64",
+      "usage": 0,
+      "time": 1.62
+    },
+    {
+      "processName": "PerfWatson2",
+      "usage": 0,
+      "time": 1.52
+    },
+    {
+      "processName": "mNHIICCService",
+      "usage": 0,
+      "time": 1.44
+    },
+    {
+      "processName": "SysInfoCap",
+      "usage": 0,
+      "time": 1.43
+    },
+    {
+      "processName": "TextInputHost",
+      "usage": 0,
+      "time": 1.34
+    },
+    {
+      "processName": "PresentMonService",
+      "usage": 0,
+      "time": 1.21
+    },
+    {
+      "processName": "OneApp.IGCC.WinService",
+      "usage": 0,
+      "time": 1.07
+    },
+    {
+      "processName": "CastSrv",
+      "usage": 0,
+      "time": 1.03
+    },
+    {
+      "processName": "ServiceHub.IdentityHost",
+      "usage": 0,
+      "time": 1.01
+    },
+    {
+      "processName": "IGCC",
+      "usage": 0,
+      "time": 1.01
+    },
+    {
+      "processName": "OfficeClickToRun",
+      "usage": 0,
+      "time": 0.99
+    },
+    {
+      "processName": "BrConsole",
+      "usage": 0,
+      "time": 0.9
+    },
+    {
+      "processName": "ms-teams",
+      "usage": 0,
+      "time": 0.89
+    },
+    {
+      "processName": "SoftwarePackageManager",
+      "usage": 0,
+      "time": 0.85
+    },
+    {
+      "processName": "CoreProvider",
+      "usage": 0,
+      "time": 0.76
+    },
+    {
+      "processName": "ShellHost",
+      "usage": 0,
+      "time": 0.7
+    },
+    {
+      "processName": "ZSAService",
+      "usage": 0,
+      "time": 0.67
+    },
+    {
+      "processName": "ServiceHub.DataWarehouseHost",
+      "usage": 0,
+      "time": 0.65
+    },
+    {
+      "processName": "SynTPEnh",
+      "usage": 0,
+      "time": 0.64
+    },
+    {
+      "processName": "audiodg",
+      "usage": 0,
+      "time": 0.64
+    },
+    {
+      "processName": "sihost",
+      "usage": 0,
+      "time": 0.62
+    },
+    {
+      "processName": "CsvToJsonConverter",
+      "usage": 0,
+      "time": 0.54
+    },
+    {
+      "processName": "Br-uxendm",
+      "usage": 0,
+      "time": 0.41
+    },
+    {
+      "processName": "ServiceHub.VSDetouredHost",
+      "usage": 0,
+      "time": 0.35
+    },
+    {
+      "processName": "ndrvx",
+      "usage": 0,
+      "time": 0.33
+    },
+    {
+      "processName": "SecurityHealthService",
+      "usage": 0,
+      "time": 0.29
+    },
+    {
+      "processName": "ms-teamsupdate",
+      "usage": 0,
+      "time": 0.21
+    },
+    {
+      "processName": "spoolsv",
+      "usage": 0,
+      "time": 0.19
+    },
+    {
+      "processName": "OneDrive",
+      "usage": 0,
+      "time": 0.13
+    },
+    {
+      "processName": "logioptionsplus_updater",
+      "usage": 0,
+      "time": 0.13
+    },
+    {
+      "processName": "AnyDesk",
+      "usage": 0,
+      "time": 0.12
+    },
+    {
+      "processName": "ServiceHub.IndexingService",
+      "usage": 0,
+      "time": 0.11
+    },
+    {
+      "processName": "ipoint",
+      "usage": 0,
+      "time": 0.08
+    },
+    {
+      "processName": "logioptionsplus_appbroker",
+      "usage": 0,
+      "time": 0.07
+    },
+    {
+      "processName": "SecurityUpdateService",
+      "usage": 0,
+      "time": 0.06
+    },
+    {
+      "processName": "OneDrive.Sync.Service",
+      "usage": 0,
+      "time": 0.05
+    },
+    {
+      "processName": "Microsoft.ServiceHub.Controller",
+      "usage": 0,
+      "time": 0.05
+    },
+    {
+      "processName": "HotKeyServiceUWP",
+      "usage": 0,
+      "time": 0.04
+    },
+    {
+      "processName": "CsSystemTray_7.28.20006.0",
+      "usage": 0,
+      "time": 0.04
+    },
+    {
+      "processName": "ServiceHub.RoslynCodeAnalysisService",
+      "usage": 0,
+      "time": 0.01
+    },
+    {
+      "processName": "ServiceHub.ThreadedWaitDialog",
+      "usage": 0,
+      "time": 0.01
+    },
+    {
+      "processName": "SynTPEnhService",
+      "usage": 0,
+      "time": 0.01
+    }
+  ]
+},
+"wmiActivitiyTable": {
+  "margin": {},
+  "total": 100,
+  "tableData": [
+    {
+      "processName": "Microsoft.Management.Services.IntuneWindowsAgent",
+      "activity": 62.5,
+      "count": 10
+    },
+    {
+      "processName": "svchost",
+      "activity": 37.5,
+      "count": 6
+    }
+  ]
+},
+"energyConsumptionTable": {
+  "margin": {},
+  "total": 316481,
+  "tableData": [
+    {
+      "processName": "EMI_RAPL_Package0_PKG",
+      "energyConsumption": 0,
+      "cpuEnergy": 0,
+      "diskEnergy": 0,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0
+    },
+    {
+      "processName": "EMI_RAPL_Package0_PP0",
+      "energyConsumption": 0,
+      "cpuEnergy": 0,
+      "diskEnergy": 0,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0
+    },
+    {
+      "processName": "EMI_RAPL_Package0_PP1",
+      "energyConsumption": 0,
+      "cpuEnergy": 0,
+      "diskEnergy": 0,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0
+    },
+    {
+      "processName": "Avecto.IC3.Client.Host",
+      "energyConsumption": 1039,
+      "cpuEnergy": 1028,
+      "diskEnergy": 9,
+      "displayEnergy": 0,
+      "networkEnergy": 2,
+      "socEnergy": 0
+    },
+    {
+      "processName": "CSFalconContainer",
+      "energyConsumption": 149,
+      "cpuEnergy": 149,
+      "diskEnergy": 0,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0
+    },
+    {
+      "processName": "System Interrupts",
+      "energyConsumption": 10568,
+      "cpuEnergy": 10568,
+      "diskEnergy": 0,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0
+    },
+    {
+      "processName": "CSFalconService",
+      "energyConsumption": 2390,
+      "cpuEnergy": 2390,
+      "diskEnergy": 0,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0
+    },
+    {
+      "processName": "BrService",
+      "energyConsumption": 50,
+      "cpuEnergy": 49,
+      "diskEnergy": 1,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0
+    },
+    {
+      "processName": "Registry",
+      "energyConsumption": 92,
+      "cpuEnergy": 10,
+      "diskEnergy": 82,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0
+    },
+    {
+      "processName": "TouchpointAnalyticsClientService",
+      "energyConsumption": 1462,
+      "cpuEnergy": 1442,
+      "diskEnergy": 20,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0
+    },
+    {
+      "processName": "InventoryService",
+      "energyConsumption": 90,
+      "cpuEnergy": 88,
+      "diskEnergy": 2,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0
+    },
+    {
+      "processName": "OfficeClickToRun",
+      "energyConsumption": 18,
+      "cpuEnergy": 17,
+      "diskEnergy": 1,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0
+    },
+    {
+      "processName": "UltraViewer_Service",
+      "energyConsumption": 41,
+      "cpuEnergy": 37,
+      "diskEnergy": 4,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0
+    },
+    {
+      "processName": "mNHIICCService",
+      "energyConsumption": 32,
+      "cpuEnergy": 32,
+      "diskEnergy": 0,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0
+    },
+    {
+      "processName": "LRS.PersonalPrint.Service",
+      "energyConsumption": 247,
+      "cpuEnergy": 247,
+      "diskEnergy": 0,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0
+    },
+    {
+      "processName": "DefendpointService",
+      "energyConsumption": 5594,
+      "cpuEnergy": 5583,
+      "diskEnergy": 11,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0
+    },
+    {
+      "processName": "tailscaled",
+      "energyConsumption": 185,
+      "cpuEnergy": 145,
+      "diskEnergy": 0,
+      "displayEnergy": 0,
+      "networkEnergy": 40,
+      "socEnergy": 0
+    },
+    {
+      "processName": "ndrvx",
+      "energyConsumption": 5,
+      "cpuEnergy": 5,
+      "diskEnergy": 0,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0
+    },
+    {
+      "processName": "AnyDesk",
+      "energyConsumption": 5,
+      "cpuEnergy": 2,
+      "diskEnergy": 3,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0
+    },
+    {
+      "processName": "Microsoft.LockApp_10.0.26100.4202_neutral__cw5n1h2txyewy",
+      "energyConsumption": 6,
+      "cpuEnergy": 6,
+      "diskEnergy": 0,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0
+    },
+    {
+      "processName": "WuhanNetPowerTechnologyCo.3322537A536FD_9.8.69.0_x64__63m8b6nby1dvp",
+      "energyConsumption": 1,
+      "cpuEnergy": 1,
+      "diskEnergy": 0,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0
+    },
+    {
+      "processName": "ZDPPackage_1.0.0.0_neutral__1zkzm883nsmyj",
+      "energyConsumption": 1,
+      "cpuEnergy": 1,
+      "diskEnergy": 0,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0
+    },
+    {
+      "processName": "IpOverUsbSvc",
+      "energyConsumption": 2,
+      "cpuEnergy": 2,
+      "diskEnergy": 0,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0
+    },
+    {
+      "processName": "windows.immersivecontrolpanel_10.0.8.1000_neutral_neutral_cw5n1h2txyewy",
+      "energyConsumption": 1,
+      "cpuEnergy": 0,
+      "diskEnergy": 1,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0
+    },
+    {
+      "processName": "ZSATrayManager",
+      "energyConsumption": 387,
+      "cpuEnergy": 375,
+      "diskEnergy": 12,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0
+    },
+    {
+      "processName": "Microsoft.MicrosoftOfficeHub_19.2511.34141.0_x64__8wekyb3d8bbwe",
+      "energyConsumption": 23,
+      "cpuEnergy": 20,
+      "diskEnergy": 3,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0
+    },
+    {
+      "processName": "TeamViewer_Service",
+      "energyConsumption": 68,
+      "cpuEnergy": 68,
+      "diskEnergy": 0,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0
+    },
+    {
+      "processName": "logioptionsplus_updater",
+      "energyConsumption": 7,
+      "cpuEnergy": 7,
+      "diskEnergy": 0,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0
+    },
+    {
+      "processName": "LensService",
+      "energyConsumption": 6105,
+      "cpuEnergy": 6099,
+      "diskEnergy": 6,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0
+    },
+    {
+      "processName": "tailscale-ipn",
+      "energyConsumption": 136,
+      "cpuEnergy": 136,
+      "diskEnergy": 0,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0
+    },
+    {
+      "processName": "ZSAService",
+      "energyConsumption": 12,
+      "cpuEnergy": 12,
+      "diskEnergy": 0,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0
+    },
+    {
+      "processName": "AppUp.IntelArcSoftware_25.36.1853.0_x64__8j3eq9eme6ctt",
+      "energyConsumption": 65,
+      "cpuEnergy": 61,
+      "diskEnergy": 4,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0
+    },
+    {
+      "processName": "USBHubSvc",
+      "energyConsumption": 553,
+      "cpuEnergy": 553,
+      "diskEnergy": 0,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0
+    },
+    {
+      "processName": "TokenUtility",
+      "energyConsumption": 682,
+      "cpuEnergy": 682,
+      "diskEnergy": 0,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0
+    },
+    {
+      "processName": "PanGPS",
+      "energyConsumption": 91,
+      "cpuEnergy": 91,
+      "diskEnergy": 0,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0
+    },
+    {
+      "processName": "ChkSrv",
+      "energyConsumption": 91,
+      "cpuEnergy": 91,
+      "diskEnergy": 0,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0
+    },
+    {
+      "processName": "chrome",
+      "energyConsumption": 43491,
+      "cpuEnergy": 43388,
+      "diskEnergy": 101,
+      "displayEnergy": 0,
+      "networkEnergy": 2,
+      "socEnergy": 0
+    },
+    {
+      "processName": "MicrosoftWindows.CrossDevice_1.25101.30.0_x64__cw5n1h2txyewy",
+      "energyConsumption": 15,
+      "cpuEnergy": 11,
+      "diskEnergy": 4,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0
+    },
+    {
+      "processName": "BrHostSvr",
+      "energyConsumption": 380,
+      "cpuEnergy": 379,
+      "diskEnergy": 1,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0
+    },
+    {
+      "processName": "ServiceHub.TestWindowStoreHost",
+      "energyConsumption": 12,
+      "cpuEnergy": 12,
+      "diskEnergy": 0,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0
+    },
+    {
+      "processName": "sublime_text",
+      "energyConsumption": 2135,
+      "cpuEnergy": 2035,
+      "diskEnergy": 100,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0
+    },
+    {
+      "processName": "PowerC",
+      "energyConsumption": 5800,
+      "cpuEnergy": 5762,
+      "diskEnergy": 38,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0
+    },
+    {
+      "processName": "AppUp.IntelGraphicsExperience_1.100.5688.0_x64__8j3eq9eme6ctt",
+      "energyConsumption": 27,
+      "cpuEnergy": 26,
+      "diskEnergy": 1,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0
+    },
+    {
+      "processName": "ZSATunnel",
+      "energyConsumption": 1944,
+      "cpuEnergy": 1915,
+      "diskEnergy": 0,
+      "displayEnergy": 0,
+      "networkEnergy": 29,
+      "socEnergy": 0
+    },
+    {
+      "processName": "MemCompression",
+      "energyConsumption": 2183,
+      "cpuEnergy": 2066,
+      "diskEnergy": 117,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0
+    },
+    {
+      "processName": "BrHostHelper",
+      "energyConsumption": 10,
+      "cpuEnergy": 10,
+      "diskEnergy": 0,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0
+    },
+    {
+      "processName": "msedge",
+      "energyConsumption": 121,
+      "cpuEnergy": 117,
+      "diskEnergy": 4,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0
+    },
+    {
+      "processName": "CsvToJsonConverter",
+      "energyConsumption": 5128,
+      "cpuEnergy": 5107,
+      "diskEnergy": 21,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0
+    },
+    {
+      "processName": "OneDrive.Sync.Service",
+      "energyConsumption": 76,
+      "cpuEnergy": 76,
+      "diskEnergy": 0,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0
+    },
+    {
+      "processName": "MicrosoftWindows.Client.CBS_1000.26100.253.0_x64__cw5n1h2txyewy",
+      "energyConsumption": 887,
+      "cpuEnergy": 885,
+      "diskEnergy": 2,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0
+    },
+    {
+      "processName": "explorer",
+      "energyConsumption": 2657,
+      "cpuEnergy": 2509,
+      "diskEnergy": 10,
+      "displayEnergy": 138,
+      "networkEnergy": 0,
+      "socEnergy": 0
+    },
+    {
+      "processName": "ZDPClassifier",
+      "energyConsumption": 161,
+      "cpuEnergy": 160,
+      "diskEnergy": 1,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0
+    },
+    {
+      "processName": "ZDPService",
+      "energyConsumption": 4871,
+      "cpuEnergy": 4871,
+      "diskEnergy": 0,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0
+    },
+    {
+      "processName": "itype",
+      "energyConsumption": 830,
+      "cpuEnergy": 830,
+      "diskEnergy": 0,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0
+    },
+    {
+      "processName": "ipoint",
+      "energyConsumption": 220,
+      "cpuEnergy": 220,
+      "diskEnergy": 0,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0
+    },
+    {
+      "processName": "BrConsole",
+      "energyConsumption": 30,
+      "cpuEnergy": 26,
+      "diskEnergy": 4,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0
+    },
+    {
+      "processName": "PowerToys",
+      "energyConsumption": 3,
+      "cpuEnergy": 0,
+      "diskEnergy": 3,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0
+    },
+    {
+      "processName": "ProcInfo",
+      "energyConsumption": 796,
+      "cpuEnergy": 793,
+      "diskEnergy": 3,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0
+    },
+    {
+      "processName": "PresentationFontCache",
+      "energyConsumption": 4,
+      "cpuEnergy": 2,
+      "diskEnergy": 2,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0
+    },
+    {
+      "processName": "LegacyHost",
+      "energyConsumption": 1729,
+      "cpuEnergy": 1729,
+      "diskEnergy": 0,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0
+    },
+    {
+      "processName": "PolyLensCallControlApp",
+      "energyConsumption": 142,
+      "cpuEnergy": 140,
+      "diskEnergy": 2,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0
+    },
+    {
+      "processName": "logioptionsplus_agent",
+      "energyConsumption": 3032,
+      "cpuEnergy": 3032,
+      "diskEnergy": 0,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0
+    },
+    {
+      "processName": "ZSATray",
+      "energyConsumption": 484,
+      "cpuEnergy": 481,
+      "diskEnergy": 3,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0
+    },
+    {
+      "processName": "msedgewebview2",
+      "energyConsumption": 456,
+      "cpuEnergy": 451,
+      "diskEnergy": 5,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0
+    },
+    {
+      "processName": "lens-desktop",
+      "energyConsumption": 270,
+      "cpuEnergy": 270,
+      "diskEnergy": 0,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0
+    },
+    {
+      "processName": "logioptionsplus_appbroker",
+      "energyConsumption": 604,
+      "cpuEnergy": 604,
+      "diskEnergy": 0,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0
+    },
+    {
+      "processName": "Microsoft.Windows.StartMenuExperienceHost_10.0.26100.4768_neutral_neutral_cw5n1h2txyewy",
+      "energyConsumption": 416,
+      "cpuEnergy": 412,
+      "diskEnergy": 4,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0
+    },
+    {
+      "processName": "HP.ClientSecurityManager",
+      "energyConsumption": 338,
+      "cpuEnergy": 326,
+      "diskEnergy": 12,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0
+    },
+    {
+      "processName": "ServiceHub.DataWarehouseHost",
+      "energyConsumption": 31,
+      "cpuEnergy": 30,
+      "diskEnergy": 1,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0
+    },
+    {
+      "processName": "MKCHelper",
+      "energyConsumption": 395,
+      "cpuEnergy": 395,
+      "diskEnergy": 0,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0
+    },
+    {
+      "processName": "ZDPApp",
+      "energyConsumption": 172,
+      "cpuEnergy": 172,
+      "diskEnergy": 0,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0
+    },
+    {
+      "processName": "MSTeams_25275.2601.4002.2815_x64__8wekyb3d8bbwe",
+      "energyConsumption": 4732,
+      "cpuEnergy": 4703,
+      "diskEnergy": 29,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0
+    },
+    {
+      "processName": "HPTouchpointManagerTray",
+      "energyConsumption": 367,
+      "cpuEnergy": 364,
+      "diskEnergy": 3,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0
+    },
+    {
+      "processName": "Zoom",
+      "energyConsumption": 7517,
+      "cpuEnergy": 7511,
+      "diskEnergy": 6,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0
+    },
+    {
+      "processName": "Microsoft.Management.Services.IntuneWindowsAgent",
+      "energyConsumption": 292,
+      "cpuEnergy": 281,
+      "diskEnergy": 11,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0
+    },
+    {
+      "processName": "LHAgent",
+      "energyConsumption": 62,
+      "cpuEnergy": 59,
+      "diskEnergy": 3,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0
+    },
+    {
+      "processName": "SoftwarePackageManager",
+      "energyConsumption": 18,
+      "cpuEnergy": 18,
+      "diskEnergy": 0,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0
+    },
+    {
+      "processName": "Br-uxendm",
+      "energyConsumption": 9,
+      "cpuEnergy": 9,
+      "diskEnergy": 0,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0
+    },
+    {
+      "processName": "CoreProvider",
+      "energyConsumption": 20,
+      "cpuEnergy": 20,
+      "diskEnergy": 0,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0
+    },
+    {
+      "processName": "HPRAService",
+      "energyConsumption": 5,
+      "cpuEnergy": 5,
+      "diskEnergy": 0,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0
+    },
+    {
+      "processName": "SecurityUpdateService",
+      "energyConsumption": 645,
+      "cpuEnergy": 645,
+      "diskEnergy": 0,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0
+    },
+    {
+      "processName": "PerfWatson2",
+      "energyConsumption": 991,
+      "cpuEnergy": 991,
+      "diskEnergy": 0,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0
+    },
+    {
+      "processName": "ServiceHub.IdentityHost",
+      "energyConsumption": 20,
+      "cpuEnergy": 19,
+      "diskEnergy": 1,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0
+    },
+    {
+      "processName": "devenv",
+      "energyConsumption": 17498,
+      "cpuEnergy": 13761,
+      "diskEnergy": 131,
+      "displayEnergy": 3597,
+      "networkEnergy": 9,
+      "socEnergy": 0
+    },
+    {
+      "processName": "ServiceHub.VSDetouredHost",
+      "energyConsumption": 44,
+      "cpuEnergy": 43,
+      "diskEnergy": 1,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0
+    },
+    {
+      "processName": "PowerC_APP",
+      "energyConsumption": 126749,
+      "cpuEnergy": 48499,
+      "diskEnergy": 181,
+      "displayEnergy": 78069,
+      "networkEnergy": 0,
+      "socEnergy": 0
+    },
+    {
+      "processName": "zWebview2Agent",
+      "energyConsumption": 167,
+      "cpuEnergy": 167,
+      "diskEnergy": 0,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0
+    },
+    {
+      "processName": "Microsoft.ServiceHub.Controller",
+      "energyConsumption": 193,
+      "cpuEnergy": 191,
+      "diskEnergy": 2,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0
+    },
+    {
+      "processName": "MSBuild",
+      "energyConsumption": 341,
+      "cpuEnergy": 341,
+      "diskEnergy": 0,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0
+    },
+    {
+      "processName": "ServiceHub.RoslynCodeAnalysisService",
+      "energyConsumption": 43132,
+      "cpuEnergy": 43118,
+      "diskEnergy": 14,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0
+    },
+    {
+      "processName": "CsSystemTray_7.28.20006.0",
+      "energyConsumption": 1,
+      "cpuEnergy": 1,
+      "diskEnergy": 0,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0
+    },
+    {
+      "processName": "ServiceHub.ThreadedWaitDialog",
+      "energyConsumption": 68,
+      "cpuEnergy": 68,
+      "diskEnergy": 0,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0
+    },
+    {
+      "processName": "PanGPA",
+      "energyConsumption": 59,
+      "cpuEnergy": 59,
+      "diskEnergy": 0,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0
+    },
+    {
+      "processName": "ServiceHub.IntellicodeModelService",
+      "energyConsumption": 60,
+      "cpuEnergy": 59,
+      "diskEnergy": 1,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0
+    },
+    {
+      "processName": "git",
+      "energyConsumption": 1124,
+      "cpuEnergy": 1116,
+      "diskEnergy": 8,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0
+    },
+    {
+      "processName": "ServiceHub.Host.dotnet.x64",
+      "energyConsumption": 902,
+      "cpuEnergy": 896,
+      "diskEnergy": 6,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0
+    },
+    {
+      "processName": "ServiceHub.IndexingService",
+      "energyConsumption": 181,
+      "cpuEnergy": 181,
+      "diskEnergy": 0,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0
+    },
+    {
+      "processName": "VBCSCompiler",
+      "energyConsumption": 1209,
+      "cpuEnergy": 1209,
+      "diskEnergy": 0,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0
+    },
+    {
+      "processName": "Microsoft.OneDriveSync_25199.1012.2.0_neutral__8wekyb3d8bbwe",
+      "energyConsumption": 2,
+      "cpuEnergy": 2,
+      "diskEnergy": 0,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0
+    },
+    {
+      "processName": "OneDrive",
+      "energyConsumption": 25,
+      "cpuEnergy": 21,
+      "diskEnergy": 4,
+      "displayEnergy": 0,
+      "networkEnergy": 0,
+      "socEnergy": 0
+    }
+  ]
+},
+"acpiTable": {
+  "acpiTotal": 52,
+  "acpiByProcessId": [
+    {
+      "pid": 4764,
+      "processName": "WmiApSrv",
+      "totalCalls": 48,
+      "methods": [
+        {
+          "amlMethodName": "\\_SB.PC00.TCPU._TMP",
+          "calls": 24
+        },
+        {
+          "amlMethodName": "\\_SB.PC00.LPCB.EC0.SEN1._TMP",
+          "calls": 12
+        },
+        {
+          "amlMethodName": "\\_SB.PC00.LPCB.EC0.SEN2._TMP",
+          "calls": 12
+        }
+      ]
+    },
+    {
+      "pid": 4,
+      "processName": "System",
+      "totalCalls": 4,
+      "methods": [
+        {
+          "amlMethodName": "\\_SB.BAT0._BST",
+          "calls": 2
+        },
+        {
+          "amlMethodName": "\\_SB.AC._PSR",
+          "calls": 2
+        }
+      ]
+    }
+  ],
+  "acpiByAmlMethodName": [
+    {
+      "amlMethodName": "\\_SB.PC00.TCPU._TMP",
+      "totalCalls": 24,
+      "callers": [
+        {
+          "pid": 4764,
+          "processName": "WmiApSrv",
+          "calls": 24
+        }
+      ]
+    },
+    {
+      "amlMethodName": "\\_SB.PC00.LPCB.EC0.SEN1._TMP",
+      "totalCalls": 12,
+      "callers": [
+        {
+          "pid": 4764,
+          "processName": "WmiApSrv",
+          "calls": 12
+        }
+      ]
+    },
+    {
+      "amlMethodName": "\\_SB.PC00.LPCB.EC0.SEN2._TMP",
+      "totalCalls": 12,
+      "callers": [
+        {
+          "pid": 4764,
+          "processName": "WmiApSrv",
+          "calls": 12
+        }
+      ]
+    },
+    {
+      "amlMethodName": "\\_SB.BAT0._BST",
+      "totalCalls": 2,
+      "callers": [
+        {
+          "pid": 4,
+          "processName": "System",
+          "calls": 2
+        }
+      ]
+    },
+    {
+      "amlMethodName": "\\_SB.AC._PSR",
+      "totalCalls": 2,
+      "callers": [
+        {
+          "pid": 4,
+          "processName": "System",
+          "calls": 2
+        }
+      ]
+    }
+  ]
+},
+"ignoreScoreProcessNames": [
+  "Idle",
+  "System",
+  "PowerC",
+  "PowerC_APP",
+  "HPXTestBed"
+],
+"embeddedServiceProcessNames": [
+  "Unknown",
+  "svchost",
+  "services",
+  "WUDFHost",
+  "WmiPrvSE",
+  "lsass",
+  "conhost",
+  "csrss",
+  "RuntimeBroker",
+  "SearchIndexer",
+  "SystemSettings",
+  "backgroundTaskHost",
+  "wininit",
+  "taskhostw",
+  "dwm",
+  "powercfg"
+],
+"recommendations": {
+  "tableData": [
+    {
+      "appName": "svchost",
+      "observation": "Windows native component;High\u00A0CPU usage\u00A0(top\u00A01);WMI activity (top 2);ACPI interrupt (top 5);Energy consumption (top 1)",
+      "recommendation": "Further debugging may be required;Profile \u0026 optimise loops / batch work",
+      "actions": [
+        {
+          "actionName": "Detail Report",
+          "type": "text",
+          "targetUrl": "\\ApexTransformer\\Resource\\Reports\\PowerC_Software_Analysis.html"
+        }
+      ]
+    },
+    {
+      "appName": "TouchpointAnalyticsClientService",
+      "observation": "High\u00A0CPU usage\u00A0(top\u00A02);Poor\u00A0idle\u00A0pattern",
+      "recommendation": "Profile \u0026 optimise loops / batch work;Release resources, sleep or wait when work completes",
+      "actions": [
+        {
+          "actionName": "Detail Report",
+          "type": "text",
+          "targetUrl": "\\ApexTransformer\\Resource\\Reports\\PowerC_Software_Analysis.html"
+        }
+      ]
+    },
+    {
+      "appName": "WmiPrvSE",
+      "observation": "Windows native component;High\u00A0CPU usage\u00A0(top\u00A03)",
+      "recommendation": "Further debugging may be required;Profile \u0026 optimise loops / batch work",
+      "actions": [
+        {
+          "actionName": "Detail Report",
+          "type": "text",
+          "targetUrl": "\\ApexTransformer\\Resource\\Reports\\PowerC_Software_Analysis.html"
+        }
+      ]
+    },
+    {
+      "appName": "netsh",
+      "observation": "High\u00A0CPU usage\u00A0(top\u00A04);Poor\u00A0idle\u00A0pattern",
+      "recommendation": "Profile \u0026 optimise loops / batch work;Release resources, sleep or wait when work completes",
+      "actions": [
+        {
+          "actionName": "Detail Report",
+          "type": "text",
+          "targetUrl": "\\ApexTransformer\\Resource\\Reports\\PowerC_Software_Analysis.html"
+        }
+      ]
+    },
+    {
+      "appName": "Unknown",
+      "observation": "Windows native component;High\u00A0CPU usage\u00A0(top\u00A05);Poor\u00A0idle\u00A0pattern;WMI activity (top 3);ACPI interrupt (top 2)",
+      "recommendation": "Further debugging may be required;Profile \u0026 optimise loops / batch work;Release resources, sleep or wait when work completes",
+      "actions": [
+        {
+          "actionName": "Detail Report",
+          "type": "text",
+          "targetUrl": "\\ApexTransformer\\Resource\\Reports\\PowerC_Software_Analysis.html"
+        }
+      ]
+    },
+    {
+      "appName": "ZDPService",
+      "observation": "High\u00A0CPU usage;Poor\u00A0idle\u00A0pattern",
+      "recommendation": "Profile \u0026 optimise loops / batch work;Release resources, sleep or wait when work completes",
+      "actions": [
+        {
+          "actionName": "Detail Report",
+          "type": "text",
+          "targetUrl": "\\ApexTransformer\\Resource\\Reports\\PowerC_Software_Analysis.html"
+        }
+      ]
+    },
+    {
+      "appName": "Zoom",
+      "observation": "High\u00A0CPU usage;Poor\u00A0idle\u00A0pattern",
+      "recommendation": "Profile \u0026 optimise loops / batch work;Release resources, sleep or wait when work completes",
+      "actions": [
+        {
+          "actionName": "Detail Report",
+          "type": "text",
+          "targetUrl": "\\ApexTransformer\\Resource\\Reports\\PowerC_Software_Analysis.html"
+        }
+      ]
+    },
+    {
+      "appName": "devenv",
+      "observation": "High\u00A0CPU usage;Poor\u00A0idle\u00A0pattern;Energy consumption (top 5)",
+      "recommendation": "Profile \u0026 optimise loops / batch work;Release resources, sleep or wait when work completes",
+      "actions": [
+        {
+          "actionName": "Detail Report",
+          "type": "text",
+          "targetUrl": "\\ApexTransformer\\Resource\\Reports\\PowerC_Software_Analysis.html"
+        }
+      ]
+    },
+    {
+      "appName": "conhost",
+      "observation": "Windows native component;High\u00A0CPU usage;Fair\u00A0idle\u00A0pattern;Energy consumption (top 4)",
+      "recommendation": "Further debugging may be required;Profile \u0026 optimise loops / batch work",
+      "actions": [
+        {
+          "actionName": "Detail Report",
+          "type": "text",
+          "targetUrl": "\\ApexTransformer\\Resource\\Reports\\PowerC_Software_Analysis.html"
+        }
+      ]
+    },
+    {
+      "appName": "MemCompression",
+      "observation": "High\u00A0CPU usage;Fair\u00A0idle\u00A0pattern",
+      "recommendation": "Profile \u0026 optimise loops / batch work",
+      "actions": [
+        {
+          "actionName": "Detail Report",
+          "type": "text",
+          "targetUrl": "\\ApexTransformer\\Resource\\Reports\\PowerC_Software_Analysis.html"
+        }
+      ]
+    },
+    {
+      "appName": "services",
+      "observation": "Windows native component;High\u00A0CPU usage;Fair\u00A0idle\u00A0pattern",
+      "recommendation": "Further debugging may be required;Profile \u0026 optimise loops / batch work",
+      "actions": [
+        {
+          "actionName": "Detail Report",
+          "type": "text",
+          "targetUrl": "\\ApexTransformer\\Resource\\Reports\\PowerC_Software_Analysis.html"
+        }
+      ]
+    },
+    {
+      "appName": "msedgewebview2",
+      "observation": "High\u00A0CPU usage",
+      "recommendation": "Profile \u0026 optimise loops / batch work",
+      "actions": [
+        {
+          "actionName": "Detail Report",
+          "type": "text",
+          "targetUrl": "\\ApexTransformer\\Resource\\Reports\\PowerC_Software_Analysis.html"
+        }
+      ]
+    },
+    {
+      "appName": "LensService",
+      "observation": "High\u00A0CPU usage;Poor\u00A0idle\u00A0pattern",
+      "recommendation": "Profile \u0026 optimise loops / batch work;Release resources, sleep or wait when work completes",
+      "actions": [
+        {
+          "actionName": "Detail Report",
+          "type": "text",
+          "targetUrl": "\\ApexTransformer\\Resource\\Reports\\PowerC_Software_Analysis.html"
+        }
+      ]
+    },
+    {
+      "appName": "CSFalconService",
+      "observation": "High\u00A0CPU usage;Poor\u00A0idle\u00A0pattern",
+      "recommendation": "Profile \u0026 optimise loops / batch work;Release resources, sleep or wait when work completes",
+      "actions": [
+        {
+          "actionName": "Detail Report",
+          "type": "text",
+          "targetUrl": "\\ApexTransformer\\Resource\\Reports\\PowerC_Software_Analysis.html"
+        }
+      ]
+    },
+    {
+      "appName": "lsass",
+      "observation": "Windows native component;Moderate\u00A0CPU usage;Fair\u00A0idle\u00A0pattern;WMI activity (top 5);ACPI interrupt (top 4)",
+      "recommendation": "Further debugging may be required;Consider reducing polling frequency",
+      "actions": [
+        {
+          "actionName": "Detail Report",
+          "type": "text",
+          "targetUrl": "\\ApexTransformer\\Resource\\Reports\\PowerC_Software_Analysis.html"
+        }
+      ]
+    },
+    {
+      "appName": "Microsoft.Management.Services.IntuneWindowsAgent",
+      "observation": "Moderate\u00A0CPU usage;Fair\u00A0idle\u00A0pattern;WMI activity (top 1)",
+      "recommendation": "Consider reducing polling frequency",
+      "actions": [
+        {
+          "actionName": "Detail Report",
+          "type": "text",
+          "targetUrl": "\\ApexTransformer\\Resource\\Reports\\PowerC_Software_Analysis.html"
+        }
+      ]
+    },
+    {
+      "appName": "DefendpointService",
+      "observation": "Moderate\u00A0CPU usage",
+      "recommendation": "Consider reducing polling frequency",
+      "actions": [
+        {
+          "actionName": "Detail Report",
+          "type": "text",
+          "targetUrl": "\\ApexTransformer\\Resource\\Reports\\PowerC_Software_Analysis.html"
+        }
+      ]
+    },
+    {
+      "appName": "chrome",
+      "observation": "Moderate\u00A0CPU usage;Energy consumption (top 2)",
+      "recommendation": "Consider reducing polling frequency",
+      "actions": [
+        {
+          "actionName": "Detail Report",
+          "type": "text",
+          "targetUrl": "\\ApexTransformer\\Resource\\Reports\\PowerC_Software_Analysis.html"
+        }
+      ]
+    },
+    {
+      "appName": "LegacyHost",
+      "observation": "Moderate\u00A0CPU usage;Poor\u00A0idle\u00A0pattern",
+      "recommendation": "Consider reducing polling frequency;Release resources, sleep or wait when work completes",
+      "actions": [
+        {
+          "actionName": "Detail Report",
+          "type": "text",
+          "targetUrl": "\\ApexTransformer\\Resource\\Reports\\PowerC_Software_Analysis.html"
+        }
+      ]
+    },
+    {
+      "appName": "csrss",
+      "observation": "Windows native component;Moderate\u00A0CPU usage;Poor\u00A0idle\u00A0pattern;WMI activity (top 4);ACPI interrupt (top 3)",
+      "recommendation": "Further debugging may be required;Consider reducing polling frequency;Release resources, sleep or wait when work completes",
+      "actions": [
+        {
+          "actionName": "Detail Report",
+          "type": "text",
+          "targetUrl": "\\ApexTransformer\\Resource\\Reports\\PowerC_Software_Analysis.html"
+        }
+      ]
+    },
+    {
+      "appName": "NETSTAT",
+      "observation": "Moderate\u00A0CPU usage;Poor\u00A0idle\u00A0pattern",
+      "recommendation": "Consider reducing polling frequency;Release resources, sleep or wait when work completes",
+      "actions": [
+        {
+          "actionName": "Detail Report",
+          "type": "text",
+          "targetUrl": "\\ApexTransformer\\Resource\\Reports\\PowerC_Software_Analysis.html"
+        }
+      ]
+    },
+    {
+      "appName": "dwm",
+      "observation": "Windows native component;Moderate\u00A0CPU usage;Fair\u00A0idle\u00A0pattern",
+      "recommendation": "Further debugging may be required;Consider reducing polling frequency",
+      "actions": [
+        {
+          "actionName": "Detail Report",
+          "type": "text",
+          "targetUrl": "\\ApexTransformer\\Resource\\Reports\\PowerC_Software_Analysis.html"
+        }
+      ]
+    },
+    {
+      "appName": "explorer",
+      "observation": "Moderate\u00A0CPU usage;Fair\u00A0idle\u00A0pattern",
+      "recommendation": "Consider reducing polling frequency",
+      "actions": [
+        {
+          "actionName": "Detail Report",
+          "type": "text",
+          "targetUrl": "\\ApexTransformer\\Resource\\Reports\\PowerC_Software_Analysis.html"
+        }
+      ]
+    },
+    {
+      "appName": "WmiApSrv",
+      "observation": "Moderate\u00A0CPU usage;ACPI interrupt (top 1)",
+      "recommendation": "Consider reducing polling frequency",
+      "actions": [
+        {
+          "actionName": "Detail Report",
+          "type": "text",
+          "targetUrl": "\\ApexTransformer\\Resource\\Reports\\PowerC_Software_Analysis.html"
+        }
+      ]
+    },
+    {
+      "appName": "ZSATunnel",
+      "observation": "Moderate\u00A0CPU usage;Poor\u00A0idle\u00A0pattern",
+      "recommendation": "Consider reducing polling frequency;Release resources, sleep or wait when work completes",
+      "actions": [
+        {
+          "actionName": "Detail Report",
+          "type": "text",
+          "targetUrl": "\\ApexTransformer\\Resource\\Reports\\PowerC_Software_Analysis.html"
+        }
+      ]
+    },
+    {
+      "appName": "TokenUtility",
+      "observation": "Moderate\u00A0CPU usage",
+      "recommendation": "Consider reducing polling frequency",
+      "actions": [
+        {
+          "actionName": "Detail Report",
+          "type": "text",
+          "targetUrl": "\\ApexTransformer\\Resource\\Reports\\PowerC_Software_Analysis.html"
+        }
+      ]
+    },
+    {
+      "appName": "USBHubSvc",
+      "observation": "Moderate\u00A0CPU usage;Poor\u00A0idle\u00A0pattern",
+      "recommendation": "Consider reducing polling frequency;Release resources, sleep or wait when work completes",
+      "actions": [
+        {
+          "actionName": "Detail Report",
+          "type": "text",
+          "targetUrl": "\\ApexTransformer\\Resource\\Reports\\PowerC_Software_Analysis.html"
+        }
+      ]
+    },
+    {
+      "appName": "ZSATray",
+      "observation": "Moderate\u00A0CPU usage;Poor\u00A0idle\u00A0pattern",
+      "recommendation": "Consider reducing polling frequency;Release resources, sleep or wait when work completes",
+      "actions": [
+        {
+          "actionName": "Detail Report",
+          "type": "text",
+          "targetUrl": "\\ApexTransformer\\Resource\\Reports\\PowerC_Software_Analysis.html"
+        }
+      ]
+    },
+    {
+      "appName": "HPTouchpointManagerTray",
+      "observation": "Moderate\u00A0CPU usage;Fair\u00A0idle\u00A0pattern",
+      "recommendation": "Consider reducing polling frequency",
+      "actions": [
+        {
+          "actionName": "Detail Report",
+          "type": "text",
+          "targetUrl": "\\ApexTransformer\\Resource\\Reports\\PowerC_Software_Analysis.html"
+        }
+      ]
+    },
+    {
+      "appName": "ZSATrayManager",
+      "observation": "Moderate\u00A0CPU usage;Fair\u00A0idle\u00A0pattern",
+      "recommendation": "Consider reducing polling frequency",
+      "actions": [
+        {
+          "actionName": "Detail Report",
+          "type": "text",
+          "targetUrl": "\\ApexTransformer\\Resource\\Reports\\PowerC_Software_Analysis.html"
+        }
+      ]
+    },
+    {
+      "appName": "RuntimeBroker",
+      "observation": "Windows native component;Moderate\u00A0CPU usage",
+      "recommendation": "Further debugging may be required;Consider reducing polling frequency",
+      "actions": [
+        {
+          "actionName": "Detail Report",
+          "type": "text",
+          "targetUrl": "\\ApexTransformer\\Resource\\Reports\\PowerC_Software_Analysis.html"
+        }
+      ]
+    },
+    {
+      "appName": "ServiceHub.Host.dotnet.x64",
+      "observation": "Moderate\u00A0CPU usage;Fair\u00A0idle\u00A0pattern",
+      "recommendation": "Consider reducing polling frequency",
+      "actions": [
+        {
+          "actionName": "Detail Report",
+          "type": "text",
+          "targetUrl": "\\ApexTransformer\\Resource\\Reports\\PowerC_Software_Analysis.html"
+        }
+      ]
+    },
+    {
+      "appName": "HP.ClientSecurityManager",
+      "observation": "Moderate\u00A0CPU usage",
+      "recommendation": "Consider reducing polling frequency",
+      "actions": [
+        {
+          "actionName": "Detail Report",
+          "type": "text",
+          "targetUrl": "\\ApexTransformer\\Resource\\Reports\\PowerC_Software_Analysis.html"
+        }
+      ]
+    },
+    {
+      "appName": "SearchIndexer",
+      "observation": "Windows native component;Fair\u00A0idle\u00A0pattern",
+      "recommendation": "Further debugging may be required",
+      "actions": [
+        {
+          "actionName": "Detail Report",
+          "type": "text",
+          "targetUrl": "\\ApexTransformer\\Resource\\Reports\\PowerC_Software_Analysis.html"
+        }
+      ]
+    },
+    {
+      "appName": "Avecto.IC3.Client.Host",
+      "observation": "Poor\u00A0idle\u00A0pattern",
+      "recommendation": "Release resources, sleep or wait when work completes",
+      "actions": [
+        {
+          "actionName": "Detail Report",
+          "type": "text",
+          "targetUrl": "\\ApexTransformer\\Resource\\Reports\\PowerC_Software_Analysis.html"
+        }
+      ]
+    },
+    {
+      "appName": "WUDFHost",
+      "observation": "Windows native component",
+      "recommendation": "Further debugging may be required",
+      "actions": [
+        {
+          "actionName": "Detail Report",
+          "type": "text",
+          "targetUrl": "\\ApexTransformer\\Resource\\Reports\\PowerC_Software_Analysis.html"
+        }
+      ]
+    },
+    {
+      "appName": "zWebview2Agent",
+      "observation": "Poor\u00A0idle\u00A0pattern",
+      "recommendation": "Release resources, sleep or wait when work completes",
+      "actions": [
+        {
+          "actionName": "Detail Report",
+          "type": "text",
+          "targetUrl": "\\ApexTransformer\\Resource\\Reports\\PowerC_Software_Analysis.html"
+        }
+      ]
+    },
+    {
+      "appName": "ZDPApp",
+      "observation": "Poor\u00A0idle\u00A0pattern",
+      "recommendation": "Release resources, sleep or wait when work completes",
+      "actions": [
+        {
+          "actionName": "Detail Report",
+          "type": "text",
+          "targetUrl": "\\ApexTransformer\\Resource\\Reports\\PowerC_Software_Analysis.html"
+        }
+      ]
+    },
+    {
+      "appName": "PolyLensCallControlApp",
+      "observation": "Poor\u00A0idle\u00A0pattern",
+      "recommendation": "Release resources, sleep or wait when work completes",
+      "actions": [
+        {
+          "actionName": "Detail Report",
+          "type": "text",
+          "targetUrl": "\\ApexTransformer\\Resource\\Reports\\PowerC_Software_Analysis.html"
+        }
+      ]
+    },
+    {
+      "appName": "PanGPS",
+      "observation": "Poor\u00A0idle\u00A0pattern",
+      "recommendation": "Release resources, sleep or wait when work completes",
+      "actions": [
+        {
+          "actionName": "Detail Report",
+          "type": "text",
+          "targetUrl": "\\ApexTransformer\\Resource\\Reports\\PowerC_Software_Analysis.html"
+        }
+      ]
+    },
+    {
+      "appName": "Registry",
+      "observation": "Poor\u00A0idle\u00A0pattern",
+      "recommendation": "Release resources, sleep or wait when work completes",
+      "actions": [
+        {
+          "actionName": "Detail Report",
+          "type": "text",
+          "targetUrl": "\\ApexTransformer\\Resource\\Reports\\PowerC_Software_Analysis.html"
+        }
+      ]
+    },
+    {
+      "appName": "unsecapp",
+      "observation": "Poor\u00A0idle\u00A0pattern",
+      "recommendation": "Release resources, sleep or wait when work completes",
+      "actions": [
+        {
+          "actionName": "Detail Report",
+          "type": "text",
+          "targetUrl": "\\ApexTransformer\\Resource\\Reports\\PowerC_Software_Analysis.html"
+        }
+      ]
+    },
+    {
+      "appName": "ShellHost",
+      "observation": "Poor\u00A0idle\u00A0pattern",
+      "recommendation": "Release resources, sleep or wait when work completes",
+      "actions": [
+        {
+          "actionName": "Detail Report",
+          "type": "text",
+          "targetUrl": "\\ApexTransformer\\Resource\\Reports\\PowerC_Software_Analysis.html"
+        }
+      ]
+    },
+    {
+      "appName": "CsvToJsonConverter",
+      "observation": "Poor\u00A0idle\u00A0pattern",
+      "recommendation": "Release resources, sleep or wait when work completes",
+      "actions": [
+        {
+          "actionName": "Detail Report",
+          "type": "text",
+          "targetUrl": "\\ApexTransformer\\Resource\\Reports\\PowerC_Software_Analysis.html"
+        }
+      ]
+    },
+    {
+      "appName": "ServiceHub.IndexingService",
+      "observation": "Poor\u00A0idle\u00A0pattern",
+      "recommendation": "Release resources, sleep or wait when work completes",
+      "actions": [
+        {
+          "actionName": "Detail Report",
+          "type": "text",
+          "targetUrl": "\\ApexTransformer\\Resource\\Reports\\PowerC_Software_Analysis.html"
+        }
+      ]
+    },
+    {
+      "appName": "logioptionsplus_appbroker",
+      "observation": "Poor\u00A0idle\u00A0pattern",
+      "recommendation": "Release resources, sleep or wait when work completes",
+      "actions": [
+        {
+          "actionName": "Detail Report",
+          "type": "text",
+          "targetUrl": "\\ApexTransformer\\Resource\\Reports\\PowerC_Software_Analysis.html"
+        }
+      ]
+    },
+    {
+      "appName": "Microsoft.ServiceHub.Controller",
+      "observation": "Poor\u00A0idle\u00A0pattern",
+      "recommendation": "Release resources, sleep or wait when work completes",
+      "actions": [
+        {
+          "actionName": "Detail Report",
+          "type": "text",
+          "targetUrl": "\\ApexTransformer\\Resource\\Reports\\PowerC_Software_Analysis.html"
+        }
+      ]
+    }
+  ]
+},
+"installedApp": [
+  {
+    "AppName": "3D Viewer",
+    "Version": "7.2506.10022.0",
+    "InstalledDate": "2025-07-09",
+    "Publisher": "Microsoft Corporation",
+    "Size": "",
+    "Source": "MSIX",
+    "InstallLocation": "C:\\Program Files\\WindowsApps\\Microsoft.Microsoft3DViewer_7.2506.10022.0_x64__8wekyb3d8bbwe"
+  },
+  {
+    "AppName": "7-Zip 25.00 (x64)",
+    "Version": "25.00",
+    "InstalledDate": "",
+    "Publisher": "Igor Pavlov",
+    "Size": "5.6 MB",
+    "Source": "HKLM64",
+    "InstallLocation": "C:\\Program Files\\7-Zip\\"
+  },
+  {
+    "AppName": "AnyDesk",
+    "Version": "ad 9.0.9",
+    "InstalledDate": "",
+    "Publisher": "AnyDesk Software GmbH",
+    "Size": "2 MB",
+    "Source": "HKLM32",
+    "InstallLocation": "\u0022C:\\Program Files (x86)\\AnyDesk\u0022"
+  },
+  {
+    "AppName": "Anyware PCoIP Client",
+    "Version": "24.7.3",
+    "InstalledDate": "",
+    "Publisher": "Teradici Corporation",
+    "Size": "169.8 MB",
+    "Source": "HKLM64",
+    "InstallLocation": null
+  },
+  {
+    "AppName": "BeyondTrust Privilege Management Cloud Adapter (x64)",
+    "Version": "25.4.598",
+    "InstalledDate": "2025-09-18",
+    "Publisher": "BeyondTrust Corporation",
+    "Size": "141.2 MB",
+    "Source": "HKLM64",
+    "InstallLocation": ""
+  },
+  {
+    "AppName": "Change My Office Update Schedule",
+    "Version": "3.00.0000",
+    "InstalledDate": "2023-08-02",
+    "Publisher": "HP Inc.",
+    "Size": "8.5 MB",
+    "Source": "HKLM64",
+    "InstallLocation": "C:\\Program Files\\HPI\\Change My Office Update Schedule\\"
+  },
+  {
+    "AppName": "Company Portal",
+    "Version": "11.2.1672.0",
+    "InstalledDate": "2025-09-11",
+    "Publisher": "Microsoft Corporation",
+    "Size": "",
+    "Source": "MSIX",
+    "InstallLocation": "C:\\Program Files\\WindowsApps\\Microsoft.CompanyPortal_11.2.1672.0_x64__8wekyb3d8bbwe"
+  },
+  {
+    "AppName": "Company Portal Desktop Shortcut",
+    "Version": "1.00.0001",
+    "InstalledDate": "2025-04-21",
+    "Publisher": "HP Inc.",
+    "Size": "1.7 MB",
+    "Source": "HKLM64",
+    "InstallLocation": "C:\\Program Files\\HPI\\CompanyPortalDesktopShortcut\\"
+  },
+  {
+    "AppName": "Contact HR DesktopIcon",
+    "Version": "1.00",
+    "InstalledDate": "2023-07-26",
+    "Publisher": "HPI",
+    "Size": "0 MB",
+    "Source": "HKLM32",
+    "InstallLocation": "C:\\Program Files (x86)\\ContactHRDesktopIcon\\"
+  },
+  {
+    "AppName": "Copilot",
+    "Version": "1.25103.108.0",
+    "InstalledDate": "2025-11-04",
+    "Publisher": "Microsoft Corporation",
+    "Size": "",
+    "Source": "MSIX",
+    "InstallLocation": "C:\\Program Files\\WindowsApps\\Microsoft.Copilot_1.25103.108.0_x64__8wekyb3d8bbwe"
+  },
+  {
+    "AppName": "CrowdStrike Windows Sensor",
+    "Version": "7.28.20006.0",
+    "InstalledDate": "2025-10-02",
+    "Publisher": "CrowdStrike, Inc.",
+    "Size": "113.2 MB",
+    "Source": "HKLM32",
+    "InstallLocation": null
+  },
+  {
+    "AppName": "Debugging Tools for Windows (x64)",
+    "Version": "6.12.2.633",
+    "InstalledDate": "2023-07-30",
+    "Publisher": "Microsoft Corporation",
+    "Size": "39.8 MB",
+    "Source": "HKLM64",
+    "InstallLocation": ""
+  },
+  {
+    "AppName": "Device Simulation Framework 1.0.1",
+    "Version": "1.0.1",
+    "InstalledDate": "2023-07-30",
+    "Publisher": "Microsoft",
+    "Size": "4.3 MB",
+    "Source": "HKLM64",
+    "InstallLocation": ""
+  },
+  {
+    "AppName": "Enterprise Mode Site List",
+    "Version": "7.00.0000",
+    "InstalledDate": "2023-11-06",
+    "Publisher": "HP Inc.",
+    "Size": "0.9 MB",
+    "Source": "HKLM64",
+    "InstallLocation": "C:\\AppData\\HPEnterpriseModeSiteList\\"
+  },
+  {
+    "AppName": "Feedback Hub",
+    "Version": "1.2510.14102.0",
+    "InstalledDate": "2025-10-23",
+    "Publisher": "Microsoft Corporation",
+    "Size": "",
+    "Source": "MSIX",
+    "InstallLocation": "C:\\Program Files\\WindowsApps\\Microsoft.WindowsFeedbackHub_1.2510.14102.0_x64__8wekyb3d8bbwe"
+  },
+  {
+    "AppName": "Game Bar",
+    "Version": "7.325.10021.0",
+    "InstalledDate": "2025-10-13",
+    "Publisher": "Microsoft Corporation",
+    "Size": "",
+    "Source": "MSIX",
+    "InstallLocation": "C:\\Program Files\\WindowsApps\\Microsoft.XboxGamingOverlay_7.325.10021.0_x64__8wekyb3d8bbwe"
+  },
+  {
+    "AppName": "Get Help",
+    "Version": "10.2409.32612.0",
+    "InstalledDate": "2025-10-13",
+    "Publisher": "Microsoft Corporation",
+    "Size": "",
+    "Source": "MSIX",
+    "InstallLocation": "C:\\Program Files\\WindowsApps\\Microsoft.GetHelp_10.2409.32612.0_x64__8wekyb3d8bbwe"
+  },
+  {
+    "AppName": "Git",
+    "Version": "2.41.0.3",
+    "InstalledDate": "2023-07-27",
+    "Publisher": "The Git Development Community",
+    "Size": "319.4 MB",
+    "Source": "HKLM64",
+    "InstallLocation": "C:\\Program Files\\Git\\"
+  },
+  {
+    "AppName": "GlobalProtect",
+    "Version": "6.2.6857",
+    "InstalledDate": "2025-02-13",
+    "Publisher": "Palo Alto Networks",
+    "Size": "123.9 MB",
+    "Source": "HKLM64",
+    "InstallLocation": ""
+  },
+  {
+    "AppName": "Google Chrome",
+    "Version": "142.0.7444.60",
+    "InstalledDate": "2025-11-05",
+    "Publisher": "Google LLC",
+    "Size": "",
+    "Source": "HKLM32",
+    "InstallLocation": "C:\\Program Files\\Google\\Chrome\\Application"
+  },
+  {
+    "AppName": "Google \u96F2\u7AEF\u786C\u789F",
+    "Version": "1.0",
+    "InstalledDate": "2023-09-08",
+    "Publisher": "Google\\Chrome",
+    "Size": "",
+    "Source": "HKCU",
+    "InstallLocation": null
+  },
+  {
+    "AppName": "HiCOS PKI Smart Card",
+    "Version": "3.1.0.22136",
+    "InstalledDate": "",
+    "Publisher": "Chunghwa Telecom",
+    "Size": "27.1 MB",
+    "Source": "HKLM32",
+    "InstallLocation": null
+  },
+  {
+    "AppName": "HP Accessory WMI Provider",
+    "Version": "1.2.2",
+    "InstalledDate": "2025-02-27",
+    "Publisher": "HP",
+    "Size": "0.5 MB",
+    "Source": "HKLM32",
+    "InstallLocation": "C:\\ProgramData\\HP\\HP_DockAccessory\\"
+  },
+  {
+    "AppName": "HP Audio Control",
+    "Version": "2.53.364.0",
+    "InstalledDate": "2025-10-29",
+    "Publisher": "Realtek Semiconductor Corp",
+    "Size": "",
+    "Source": "MSIX",
+    "InstallLocation": "C:\\Program Files\\WindowsApps\\RealtekSemiconductorCorp.HPAudioControl_2.53.364.0_x64__dt26b99r8h8gj"
+  },
+  {
+    "AppName": "HP Client Management Script Library",
+    "Version": "1.8.1",
+    "InstalledDate": "2025-04-07",
+    "Publisher": "HP Development Company, L.P.",
+    "Size": "70.2 MB",
+    "Source": "HKLM32",
+    "InstallLocation": "C:\\Program Files\\WindowsPowerShell\\"
+  },
+  {
+    "AppName": "HP Corporate Wallpaper",
+    "Version": "4.00.0000",
+    "InstalledDate": "2023-07-26",
+    "Publisher": "HP Inc.",
+    "Size": "1.1 MB",
+    "Source": "HKLM64",
+    "InstallLocation": "C:\\Windows\\Web\\Wallpaper\\"
+  },
+  {
+    "AppName": "HP Cybersecurity Home",
+    "Version": "3.00.0000",
+    "InstalledDate": "2025-03-27",
+    "Publisher": "HP Inc.",
+    "Size": "7 MB",
+    "Source": "HKLM64",
+    "InstallLocation": "C:\\Program Files\\HPI\\HPCybersecurityHome\\"
+  },
+  {
+    "AppName": "HP Display Center",
+    "Version": "2.4.4.0",
+    "InstalledDate": "2025-10-27",
+    "Publisher": "HP Inc.",
+    "Size": "",
+    "Source": "MSIX",
+    "InstallLocation": "C:\\Program Files\\WindowsApps\\AD2F1837.HPDisplayCenter_2.4.4.0_x64__v10z8vjag6ke6"
+  },
+  {
+    "AppName": "HP Forma DJR Fonts English Latin Extended Cyrillic",
+    "Version": "1.00.0000",
+    "InstalledDate": "2023-08-02",
+    "Publisher": "HP Inc.",
+    "Size": "1.1 MB",
+    "Source": "HKLM64",
+    "InstallLocation": "C:\\Windows\\"
+  },
+  {
+    "AppName": "HP Forma DJR Office Fonts",
+    "Version": "1.00.0000",
+    "InstalledDate": "2025-09-26",
+    "Publisher": "HP Inc.",
+    "Size": "0.7 MB",
+    "Source": "HKLM64",
+    "InstallLocation": "C:\\WINDOWS\\"
+  },
+  {
+    "AppName": "HP Insights",
+    "Version": "5.25.47",
+    "InstalledDate": "2025-07-03",
+    "Publisher": "HP Inc.",
+    "Size": "62.6 MB",
+    "Source": "HKLM32",
+    "InstallLocation": ""
+  },
+  {
+    "AppName": "HP Insights Analytics",
+    "Version": "4.2.2436.0",
+    "InstalledDate": "2025-02-27",
+    "Publisher": "HP Inc.",
+    "Size": "36 MB",
+    "Source": "HKLM32",
+    "InstallLocation": ""
+  },
+  {
+    "AppName": "HP Insights Analytics - Dependencies",
+    "Version": "1.0.7",
+    "InstalledDate": "2025-02-27",
+    "Publisher": "HP Inc.",
+    "Size": "9.1 MB",
+    "Source": "HKLM32",
+    "InstallLocation": ""
+  },
+  {
+    "AppName": "HP Programmable Key",
+    "Version": "1.0.17.0",
+    "InstalledDate": "2025-07-04",
+    "Publisher": "HP Inc.",
+    "Size": "",
+    "Source": "MSIX",
+    "InstallLocation": "C:\\Program Files\\WindowsApps\\AD2F1837.HPProgrammableKey_1.0.17.0_x64__v10z8vjag6ke6"
+  },
+  {
+    "AppName": "HP Support Assistant",
+    "Version": "9.48.13.0",
+    "InstalledDate": "2025-10-21",
+    "Publisher": "HP Inc.",
+    "Size": "",
+    "Source": "MSIX",
+    "InstallLocation": "C:\\Program Files\\WindowsApps\\AD2F1837.HPSupportAssistant_9.48.13.0_x64__v10z8vjag6ke6"
+  },
+  {
+    "AppName": "HP System Information",
+    "Version": "8.10.45.0",
+    "InstalledDate": "2025-07-04",
+    "Publisher": "HP Inc.",
+    "Size": "",
+    "Source": "MSIX",
+    "InstallLocation": "C:\\Program Files\\WindowsApps\\AD2F1837.HPSystemInformation_8.10.45.0_x64__v10z8vjag6ke6"
+  },
+  {
+    "AppName": "HP Wolf Security",
+    "Version": "4.4.26.1399",
+    "InstalledDate": "2025-08-27",
+    "Publisher": "HP Inc.",
+    "Size": "1242.2 MB",
+    "Source": "HKLM64",
+    "InstallLocation": ""
+  },
+  {
+    "AppName": "HP Wolf Security - Console",
+    "Version": "11.1.4.895",
+    "InstalledDate": "2025-08-27",
+    "Publisher": "HP Inc.",
+    "Size": "",
+    "Source": "HKLM64",
+    "InstallLocation": ""
+  },
+  {
+    "AppName": "IIS 10.0 Express",
+    "Version": "10.0.07728",
+    "InstalledDate": "2023-08-04",
+    "Publisher": "Microsoft Corporation",
+    "Size": "57.2 MB",
+    "Source": "HKLM64",
+    "InstallLocation": ""
+  },
+  {
+    "AppName": "ILSpy",
+    "Version": "8.1.0.7455",
+    "InstalledDate": "2023-10-16",
+    "Publisher": "ICSharpCode Team",
+    "Size": "10.2 MB",
+    "Source": "HKLM64",
+    "InstallLocation": ""
+  },
+  {
+    "AppName": "Intel(R) IO Self-Testing Tool",
+    "Version": "2.4.01.169",
+    "InstalledDate": "2025-07-09",
+    "Publisher": "Intel Corporation",
+    "Size": "2.7 MB",
+    "Source": "HKLM64",
+    "InstallLocation": ""
+  },
+  {
+    "AppName": "Intel(R) Management and Security Status",
+    "Version": "2521.8.2.0",
+    "InstalledDate": "2025-08-27",
+    "Publisher": "INTEL CORP",
+    "Size": "",
+    "Source": "MSIX",
+    "InstallLocation": "C:\\Program Files\\WindowsApps\\AppUp.IntelManagementandSecurityStatus_2521.8.2.0_x64__8j3eq9eme6ctt"
+  },
+  {
+    "AppName": "Intel\u00AE Graphics Command Center",
+    "Version": "1.100.5688.0",
+    "InstalledDate": "2024-11-12",
+    "Publisher": "INTEL CORP",
+    "Size": "",
+    "Source": "MSIX",
+    "InstallLocation": "C:\\Program Files\\WindowsApps\\AppUp.IntelGraphicsExperience_1.100.5688.0_x64__8j3eq9eme6ctt"
+  },
+  {
+    "AppName": "Intel\u00AE Graphics Software",
+    "Version": "25.36.1853.0",
+    "InstalledDate": "2025-10-20",
+    "Publisher": "INTEL CORP",
+    "Size": "",
+    "Source": "MSIX",
+    "InstallLocation": "C:\\Program Files\\WindowsApps\\AppUp.IntelArcSoftware_25.36.1853.0_x64__8j3eq9eme6ctt"
+  },
+  {
+    "AppName": "Intel\u00AE Rapid Storage Technology Application",
+    "Version": "20.0.1021.0",
+    "InstalledDate": "2025-06-19",
+    "Publisher": "INTEL CORP",
+    "Size": "",
+    "Source": "MSIX",
+    "InstallLocation": "C:\\Program Files\\WindowsApps\\AppUp.IntelOptaneMemoryandStorageManagement_20.0.1021.0_x64__8j3eq9eme6ctt"
+  },
+  {
+    "AppName": "JNLP File Association Settings",
+    "Version": "1.00.0000",
+    "InstalledDate": "2023-07-26",
+    "Publisher": "HP Inc.",
+    "Size": "0.9 MB",
+    "Source": "HKLM64",
+    "InstallLocation": "C:\\Windows\\"
+  },
+  {
+    "AppName": "Logi Options\u002B",
+    "Version": "1.97.791262",
+    "InstalledDate": "",
+    "Publisher": "Logitech",
+    "Size": "",
+    "Source": "HKLM64",
+    "InstallLocation": null
+  },
+  {
+    "AppName": "Logi Plugin Service",
+    "Version": "6.2.2.879",
+    "InstalledDate": "2025-10-13",
+    "Publisher": "Logitech",
+    "Size": "262.2 MB",
+    "Source": "HKLM64",
+    "InstallLocation": ""
+  },
+  {
+    "AppName": "Mail and Calendar",
+    "Version": "16005.14326.22342.0",
+    "InstalledDate": "2025-04-09",
+    "Publisher": "Microsoft Corporation",
+    "Size": "",
+    "Source": "MSIX",
+    "InstallLocation": "C:\\Program Files\\WindowsApps\\microsoft.windowscommunicationsapps_16005.14326.22342.0_x64__8wekyb3d8bbwe"
+  },
+  {
+    "AppName": "Microsoft .NET Core Runtime - 2.1.30 (x64)",
+    "Version": "2.1.30.30411",
+    "InstalledDate": "",
+    "Publisher": "Microsoft Corporation",
+    "Size": "89.5 MB",
+    "Source": "HKLM32",
+    "InstallLocation": null
+  },
+  {
+    "AppName": "Microsoft .NET Framework 4.5.1 SDK",
+    "Version": "4.5.51641",
+    "InstalledDate": "2023-07-27",
+    "Publisher": "Microsoft Corporation",
+    "Size": "19.4 MB",
+    "Source": "HKLM32",
+    "InstallLocation": ""
+  },
+  {
+    "AppName": "Microsoft .NET Framework 4.6.2 SDK",
+    "Version": "4.6.01586",
+    "InstalledDate": "2023-07-31",
+    "Publisher": "Microsoft Corporation",
+    "Size": "20.2 MB",
+    "Source": "HKLM32",
+    "InstallLocation": ""
+  },
+  {
+    "AppName": "Microsoft .NET Framework 4.6.2 Targeting Pack",
+    "Version": "4.6.01586",
+    "InstalledDate": "2023-07-31",
+    "Publisher": "Microsoft Corporation",
+    "Size": "40.4 MB",
+    "Source": "HKLM32",
+    "InstallLocation": ""
+  },
+  {
+    "AppName": "Microsoft .NET SDK 8.0.318 (x64)",
+    "Version": "8.3.1825.47602",
+    "InstalledDate": "",
+    "Publisher": "Microsoft Corporation",
+    "Size": "1000.6 MB",
+    "Source": "HKLM32",
+    "InstallLocation": null
+  },
+  {
+    "AppName": "Microsoft .NET SDK 9.0.203 (x64) from Visual Studio",
+    "Version": "9.2.325.16509",
+    "InstalledDate": "2025-04-30",
+    "Publisher": "Microsoft Corporation",
+    "Size": "0.2 MB",
+    "Source": "HKLM64",
+    "InstallLocation": ""
+  },
+  {
+    "AppName": "Microsoft 365 Apps for enterprise - en-us",
+    "Version": "16.0.19127.20314",
+    "InstalledDate": "",
+    "Publisher": "Microsoft Corporation",
+    "Size": "",
+    "Source": "HKLM64",
+    "InstallLocation": "C:\\Program Files\\Microsoft Office"
+  },
+  {
+    "AppName": "Microsoft 365 Copilot",
+    "Version": "19.2511.34141.0",
+    "InstalledDate": "2025-11-06",
+    "Publisher": "Microsoft Corporation",
+    "Size": "",
+    "Source": "MSIX",
+    "InstallLocation": "C:\\Program Files\\WindowsApps\\Microsoft.MicrosoftOfficeHub_19.2511.34141.0_x64__8wekyb3d8bbwe"
+  },
+  {
+    "AppName": "Microsoft Build of OpenJDK with Hotspot 21.0.1\u002B12 (x64)",
+    "Version": "21.0.1.12",
+    "InstalledDate": "2023-10-31",
+    "Publisher": "Microsoft",
+    "Size": "326.9 MB",
+    "Source": "HKLM64",
+    "InstallLocation": "C:\\Program Files\\Microsoft\\jdk-21.0.1.12-hotspot\\"
+  },
+  {
+    "AppName": "Microsoft Clipchamp",
+    "Version": "4.4.10420.0",
+    "InstalledDate": "2025-10-20",
+    "Publisher": "Microsoft Corp.",
+    "Size": "",
+    "Source": "MSIX",
+    "InstallLocation": "C:\\Program Files\\WindowsApps\\Clipchamp.Clipchamp_4.4.10420.0_x64__yxz26nhyzhsrt"
+  },
+  {
+    "AppName": "Microsoft Device Inventory Agent",
+    "Version": "6.2510.22.2000",
+    "InstalledDate": "2025-10-20",
+    "Publisher": "Microsoft Corporation",
+    "Size": "13.4 MB",
+    "Source": "HKLM64",
+    "InstallLocation": ""
+  },
+  {
+    "AppName": "Microsoft Document Explorer 2008",
+    "Version": null,
+    "InstalledDate": "",
+    "Publisher": "Microsoft Corporation",
+    "Size": "",
+    "Source": "HKLM32",
+    "InstallLocation": "c:\\Program Files (x86)\\Common Files\\Microsoft Shared\\Help 9\\"
+  },
+  {
+    "AppName": "Microsoft Edge",
+    "Version": "142.0.3595.53",
+    "InstalledDate": "2025-11-04",
+    "Publisher": "Microsoft Corporation",
+    "Size": "",
+    "Source": "HKLM32",
+    "InstallLocation": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application"
+  },
+  {
+    "AppName": "Microsoft Intune Management Extension",
+    "Version": "1.95.151.0",
+    "InstalledDate": "2025-10-17",
+    "Publisher": "Microsoft Corporation",
+    "Size": "22.8 MB",
+    "Source": "HKLM32",
+    "InstallLocation": ""
+  },
+  {
+    "AppName": "Microsoft ODBC Driver 17 for SQL Server",
+    "Version": "17.10.6.1",
+    "InstalledDate": "2024-05-06",
+    "Publisher": "Microsoft Corporation",
+    "Size": "7.3 MB",
+    "Source": "HKLM64",
+    "InstallLocation": ""
+  },
+  {
+    "AppName": "Microsoft OneDrive",
+    "Version": "25.199.1012.0002",
+    "InstalledDate": "",
+    "Publisher": "Microsoft Corporation",
+    "Size": "432.8 MB",
+    "Source": "HKLM64",
+    "InstallLocation": null
+  },
+  {
+    "AppName": "Microsoft Photos",
+    "Version": "2025.11100.9001.0",
+    "InstalledDate": "2025-10-27",
+    "Publisher": "Microsoft Corporation",
+    "Size": "",
+    "Source": "MSIX",
+    "InstallLocation": "C:\\Program Files\\WindowsApps\\Microsoft.Windows.Photos_2025.11100.9001.0_x64__8wekyb3d8bbwe"
+  },
+  {
+    "AppName": "Microsoft SQL Server 2016 LocalDB",
+    "Version": "13.1.4001.0",
+    "InstalledDate": "2023-07-27",
+    "Publisher": "Microsoft Corporation",
+    "Size": "234.4 MB",
+    "Source": "HKLM64",
+    "InstallLocation": ""
+  },
+  {
+    "AppName": "Microsoft SQL Server 2019 LocalDB",
+    "Version": "15.0.4382.1",
+    "InstalledDate": "2025-04-30",
+    "Publisher": "Microsoft Corporation",
+    "Size": "260.5 MB",
+    "Source": "HKLM64",
+    "InstallLocation": ""
+  },
+  {
+    "AppName": "Microsoft Sticky Notes",
+    "Version": "6.1.4.0",
+    "InstalledDate": "2024-11-08",
+    "Publisher": "Microsoft Corporation",
+    "Size": "",
+    "Source": "MSIX",
+    "InstallLocation": "C:\\Program Files\\WindowsApps\\Microsoft.MicrosoftStickyNotes_6.1.4.0_x64__8wekyb3d8bbwe"
+  },
+  {
+    "AppName": "Microsoft Store",
+    "Version": "22509.1401.17.0",
+    "InstalledDate": "2025-11-04",
+    "Publisher": "Microsoft Corporation",
+    "Size": "",
+    "Source": "MSIX",
+    "InstallLocation": "C:\\Program Files\\WindowsApps\\Microsoft.WindowsStore_22509.1401.17.0_x64__8wekyb3d8bbwe"
+  },
+  {
+    "AppName": "Microsoft System CLR Types for SQL Server 2019",
+    "Version": "15.0.2000.5",
+    "InstalledDate": "2023-08-01",
+    "Publisher": "Microsoft Corporation",
+    "Size": "3.8 MB",
+    "Source": "HKLM64",
+    "InstallLocation": ""
+  },
+  {
+    "AppName": "Microsoft Teams",
+    "Version": "25275.2601.4002.2815",
+    "InstalledDate": "2025-10-15",
+    "Publisher": "Microsoft",
+    "Size": "",
+    "Source": "MSIX",
+    "InstallLocation": "C:\\Program Files\\WindowsApps\\MSTeams_25275.2601.4002.2815_x64__8wekyb3d8bbwe"
+  },
+  {
+    "AppName": "Microsoft Teams Meeting Add-in for Microsoft Office",
+    "Version": "1.25.24601",
+    "InstalledDate": "2025-10-15",
+    "Publisher": "Microsoft",
+    "Size": "33.8 MB",
+    "Source": "HKLM64",
+    "InstallLocation": ""
+  },
+  {
+    "AppName": "Microsoft Threat Modeling Tool",
+    "Version": "7.3.30829.1",
+    "InstalledDate": "",
+    "Publisher": "Microsoft Threat Modeling Tool",
+    "Size": "",
+    "Source": "HKCU",
+    "InstallLocation": null
+  },
+  {
+    "AppName": "Microsoft Update Health Tools",
+    "Version": "3.74.0.0",
+    "InstalledDate": "2023-11-07",
+    "Publisher": "Microsoft Corporation",
+    "Size": "1 MB",
+    "Source": "HKLM64",
+    "InstallLocation": ""
+  },
+  {
+    "AppName": "Microsoft Visual C\u002B\u002B 2010  x64 Redistributable - 10.0.40219",
+    "Version": "10.0.40219",
+    "InstalledDate": "2023-07-27",
+    "Publisher": "Microsoft Corporation",
+    "Size": "13.9 MB",
+    "Source": "HKLM64",
+    "InstallLocation": ""
+  },
+  {
+    "AppName": "Microsoft Visual C\u002B\u002B 2010  x86 Redistributable - 10.0.40219",
+    "Version": "10.0.40219",
+    "InstalledDate": "2023-07-27",
+    "Publisher": "Microsoft Corporation",
+    "Size": "11.1 MB",
+    "Source": "HKLM32",
+    "InstallLocation": ""
+  },
+  {
+    "AppName": "Microsoft Visual C\u002B\u002B 2013 Redistributable (x64) - 12.0.30501",
+    "Version": "12.0.30501.0",
+    "InstalledDate": "",
+    "Publisher": "Microsoft Corporation",
+    "Size": "20.6 MB",
+    "Source": "HKLM32",
+    "InstallLocation": null
+  },
+  {
+    "AppName": "Microsoft Visual C\u002B\u002B 2013 Redistributable (x86) - 12.0.30501",
+    "Version": "12.0.30501.0",
+    "InstalledDate": "",
+    "Publisher": "Microsoft Corporation",
+    "Size": "17.2 MB",
+    "Source": "HKLM32",
+    "InstallLocation": null
+  },
+  {
+    "AppName": "Microsoft Visual C\u002B\u002B 2015-2022 Redistributable (x64) - 14.42.34438",
+    "Version": "14.42.34438.0",
+    "InstalledDate": "",
+    "Publisher": "Microsoft Corporation",
+    "Size": "20.7 MB",
+    "Source": "HKLM32",
+    "InstallLocation": null
+  },
+  {
+    "AppName": "Microsoft Visual C\u002B\u002B 2015-2022 Redistributable (x86) - 14.42.34438",
+    "Version": "14.42.34438.0",
+    "InstalledDate": "",
+    "Publisher": "Microsoft Corporation",
+    "Size": "18.2 MB",
+    "Source": "HKLM32",
+    "InstallLocation": null
+  },
+  {
+    "AppName": "Microsoft Visual Studio 2010 Tools for Office Runtime (x64)",
+    "Version": "10.0.60724",
+    "InstalledDate": "",
+    "Publisher": "Microsoft Corporation",
+    "Size": "",
+    "Source": "HKLM64",
+    "InstallLocation": "c:\\Program Files\\Common Files\\Microsoft Shared\\VSTO\\10.0\\"
+  },
+  {
+    "AppName": "Microsoft Visual Studio Code (User)",
+    "Version": "1.105.1",
+    "InstalledDate": "2025-11-05",
+    "Publisher": "Microsoft Corporation",
+    "Size": "434.3 MB",
+    "Source": "HKCU",
+    "InstallLocation": "C:\\Users\\ChYu500\\AppData\\Local\\Programs\\Microsoft VS Code\\"
+  },
+  {
+    "AppName": "Microsoft Visual Studio Installer",
+    "Version": "3.14.2075.50697",
+    "InstalledDate": "2023-07-27",
+    "Publisher": "Microsoft Corporation",
+    "Size": "0 MB",
+    "Source": "HKLM64",
+    "InstallLocation": "\u0022C:\\Program Files (x86)\\Microsoft Visual Studio\\Installer\u0022"
+  },
+  {
+    "AppName": "Microsoft Web Deploy 4.0",
+    "Version": "10.0.6813",
+    "InstalledDate": "2023-08-04",
+    "Publisher": "Microsoft Corporation",
+    "Size": "14.5 MB",
+    "Source": "HKLM64",
+    "InstallLocation": ""
+  },
+  {
+    "AppName": "Microsoft Windows Driver Kit 7.1.0.7600",
+    "Version": "7.1.0.7600",
+    "InstalledDate": "",
+    "Publisher": "Microsoft Corporation",
+    "Size": "",
+    "Source": "HKLM32",
+    "InstallLocation": null
+  },
+  {
+    "AppName": "Microsoft Windows Driver Kit Documentation 7600.091201",
+    "Version": "6.0.7600.0",
+    "InstalledDate": "2023-07-30",
+    "Publisher": "Microsoft",
+    "Size": "59 MB",
+    "Source": "HKLM32",
+    "InstallLocation": ""
+  },
+  {
+    "AppName": "Microsoft \u6ED1\u9F20\u548C\u9375\u76E4\u4E2D\u5FC3",
+    "Version": "14.41.137.0",
+    "InstalledDate": "",
+    "Publisher": "Microsoft Corporation",
+    "Size": "",
+    "Source": "HKLM64",
+    "InstallLocation": "C:\\Program Files\\Microsoft Mouse and Keyboard Center\\"
+  },
+  {
+    "AppName": "MiniTool Partition Wizard Free 13",
+    "Version": "13",
+    "InstalledDate": "2025-10-01",
+    "Publisher": "MiniTool Software Limited",
+    "Size": "337.2 MB",
+    "Source": "HKLM64",
+    "InstallLocation": "C:\\Program Files\\MiniTool Partition Wizard 13\\"
+  },
+  {
+    "AppName": "Mixed Reality Portal",
+    "Version": "2000.21051.1282.0",
+    "InstalledDate": "2023-07-26",
+    "Publisher": "Microsoft Corporation",
+    "Size": "",
+    "Source": "MSIX",
+    "InstallLocation": "C:\\Program Files\\WindowsApps\\Microsoft.MixedReality.Portal_2000.21051.1282.0_x64__8wekyb3d8bbwe"
+  },
+  {
+    "AppName": "Movies \u0026 TV",
+    "Version": "10.25081.10131.0",
+    "InstalledDate": "2025-09-18",
+    "Publisher": "Microsoft Corporation",
+    "Size": "",
+    "Source": "MSIX",
+    "InstallLocation": "C:\\Program Files\\WindowsApps\\Microsoft.ZuneVideo_10.25081.10131.0_x64__8wekyb3d8bbwe"
+  },
+  {
+    "AppName": "MSN Weather",
+    "Version": "4.54.63029.0",
+    "InstalledDate": "2025-10-15",
+    "Publisher": "Microsoft Corporation",
+    "Size": "",
+    "Source": "MSIX",
+    "InstallLocation": "C:\\Program Files\\WindowsApps\\Microsoft.BingWeather_4.54.63029.0_x64__8wekyb3d8bbwe"
+  },
+  {
+    "AppName": "myHPITapps Shortcut",
+    "Version": "1.00.0000",
+    "InstalledDate": "2023-07-26",
+    "Publisher": "HP Inc.",
+    "Size": "1.7 MB",
+    "Source": "HKLM64",
+    "InstallLocation": "C:\\Program Files\\HPI\\myHPITapps Shortcut\\"
+  },
+  {
+    "AppName": "myITsupport Help Center",
+    "Version": "2.00.0000",
+    "InstalledDate": "2023-08-18",
+    "Publisher": "HP Inc.",
+    "Size": "6.6 MB",
+    "Source": "HKLM64",
+    "InstallLocation": "C:\\Program Files\\HPI\\myITsupportHelpCenter\\"
+  },
+  {
+    "AppName": "Network Isolation Settings",
+    "Version": "1.00.0000",
+    "InstalledDate": "2023-07-25",
+    "Publisher": "HP Inc.",
+    "Size": "0.9 MB",
+    "Source": "HKLM64",
+    "InstallLocation": "C:\\Windows\\"
+  },
+  {
+    "AppName": "News",
+    "Version": "4.55.62231.0",
+    "InstalledDate": "2025-06-23",
+    "Publisher": "Microsoft Corporation",
+    "Size": "",
+    "Source": "MSIX",
+    "InstallLocation": "C:\\Program Files\\WindowsApps\\Microsoft.BingNews_4.55.62231.0_x64__8wekyb3d8bbwe"
+  },
+  {
+    "AppName": "NuGet Package Explorer",
+    "Version": "6.2.19.0",
+    "InstalledDate": "2025-04-09",
+    "Publisher": "Claire Novotny LLC",
+    "Size": "",
+    "Source": "MSIX",
+    "InstallLocation": "C:\\Program Files\\WindowsApps\\50582LuanNguyen.NuGetPackageExplorer_6.2.19.0_x64__w6y2tyx5bpzwa"
+  },
+  {
+    "AppName": "Oracle VM VirtualBox 7.0.12",
+    "Version": "7.0.12",
+    "InstalledDate": "2023-12-14",
+    "Publisher": "Oracle and/or its affiliates",
+    "Size": "211 MB",
+    "Source": "HKLM64",
+    "InstallLocation": ""
+  },
+  {
+    "AppName": "Outlook for Windows",
+    "Version": "1.2025.1020.100",
+    "InstalledDate": "2025-11-05",
+    "Publisher": "Microsoft Corporation",
+    "Size": "",
+    "Source": "MSIX",
+    "InstallLocation": "C:\\Program Files\\WindowsApps\\Microsoft.OutlookForWindows_1.2025.1020.100_x64__8wekyb3d8bbwe"
+  },
+  {
+    "AppName": "Paint",
+    "Version": "11.2509.441.0",
+    "InstalledDate": "2025-11-04",
+    "Publisher": "Microsoft Corporation",
+    "Size": "",
+    "Source": "MSIX",
+    "InstallLocation": "C:\\Program Files\\WindowsApps\\Microsoft.Paint_11.2509.441.0_x64__8wekyb3d8bbwe"
+  },
+  {
+    "AppName": "Paint 3D",
+    "Version": "6.2410.13017.0",
+    "InstalledDate": "2024-11-29",
+    "Publisher": "Microsoft Corporation",
+    "Size": "",
+    "Source": "MSIX",
+    "InstallLocation": "C:\\Program Files\\WindowsApps\\Microsoft.MSPaint_6.2410.13017.0_x64__8wekyb3d8bbwe"
+  },
+  {
+    "AppName": "Personal Print Manager (x64)",
+    "Version": "104.0.18.2371",
+    "InstalledDate": "",
+    "Publisher": "Levi, Ray \u0026 Shoup, Inc.",
+    "Size": "814.8 MB",
+    "Source": "HKLM32",
+    "InstallLocation": null
+  },
+  {
+    "AppName": "Phone Link",
+    "Version": "1.25101.25.0",
+    "InstalledDate": "2025-11-04",
+    "Publisher": "Microsoft Corporation",
+    "Size": "",
+    "Source": "MSIX",
+    "InstallLocation": "C:\\Program Files\\WindowsApps\\Microsoft.YourPhone_1.25101.25.0_x64__8wekyb3d8bbwe"
+  },
+  {
+    "AppName": "Poly Lens Control Service",
+    "Version": "1.9.452",
+    "InstalledDate": "2025-05-03",
+    "Publisher": "HP Inc.",
+    "Size": "165.4 MB",
+    "Source": "HKLM64",
+    "InstallLocation": "C:\\Program Files\\Poly\\Lens Control Service\\"
+  },
+  {
+    "AppName": "Poly Lens Desktop",
+    "Version": "2.1.0.2461",
+    "InstalledDate": "2025-05-03",
+    "Publisher": "HP Inc.",
+    "Size": "708.7 MB",
+    "Source": "HKLM64",
+    "InstallLocation": "C:\\Program Files\\Poly\\Poly Lens Desktop\\"
+  },
+  {
+    "AppName": "PowerC_APP",
+    "Version": "1.4.0.0",
+    "InstalledDate": "2025-10-15",
+    "Publisher": "HP",
+    "Size": "385.8 MB",
+    "Source": "HKLM32",
+    "InstallLocation": ""
+  },
+  {
+    "AppName": "PowerToys (Preview) x64",
+    "Version": "0.80.1",
+    "InstalledDate": "",
+    "Publisher": "Microsoft Corporation",
+    "Size": "900.2 MB",
+    "Source": "HKLM32",
+    "InstallLocation": null
+  },
+  {
+    "AppName": "Privilege Management for Windows (x64) 25.4.270.0",
+    "Version": "25.4.270.0",
+    "InstalledDate": "2025-09-18",
+    "Publisher": "BeyondTrust Corporation",
+    "Size": "147.5 MB",
+    "Source": "HKLM64",
+    "InstallLocation": "C:\\Program Files\\Avecto\\Privilege Guard Client\\"
+  },
+  {
+    "AppName": "PulsarDownloadManagerSetup",
+    "Version": "2.0.04",
+    "InstalledDate": "2023-11-16",
+    "Publisher": "hewlett-packard",
+    "Size": "3.8 MB",
+    "Source": "HKLM64",
+    "InstallLocation": ""
+  },
+  {
+    "AppName": "Python 3.12",
+    "Version": "3.12.2800.0",
+    "InstalledDate": "2025-04-09",
+    "Publisher": "Python Software Foundation",
+    "Size": "",
+    "Source": "MSIX",
+    "InstallLocation": "C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0"
+  },
+  {
+    "AppName": "Quick Assist",
+    "Version": "2.0.29.0",
+    "InstalledDate": "2025-06-19",
+    "Publisher": "Microsoft Corp.",
+    "Size": "",
+    "Source": "MSIX",
+    "InstallLocation": "C:\\Program Files\\WindowsApps\\MicrosoftCorporationII.QuickAssist_2.0.29.0_x64__8wekyb3d8bbwe"
+  },
+  {
+    "AppName": "Realtek USB Audio",
+    "Version": "6.3.9600.205",
+    "InstalledDate": "",
+    "Publisher": "Realtek Semiconductor Corp.",
+    "Size": "",
+    "Source": "HKLM64",
+    "InstallLocation": "C:\\Program Files\\Realtek\\Audio\\USB"
+  },
+  {
+    "AppName": "Remote Access to HP Inc.",
+    "Version": "1.1.13.52064",
+    "InstalledDate": "2023-07-26",
+    "Publisher": "HP Inc.",
+    "Size": "8.6 MB",
+    "Source": "HKLM64",
+    "InstallLocation": "C:\\Program Files\\RA2HP\\"
+  },
+  {
+    "AppName": "Remove My hpinc WiFi Profile",
+    "Version": "1.00.0000",
+    "InstalledDate": "2023-07-25",
+    "Publisher": "HP Inc.",
+    "Size": "6.6 MB",
+    "Source": "HKLM64",
+    "InstallLocation": "C:\\Program Files\\HPI\\RmvMyhpincwifiProfile\\"
+  },
+  {
+    "AppName": "RW-Everything v1.7",
+    "Version": null,
+    "InstalledDate": "2023-09-04",
+    "Publisher": null,
+    "Size": "13.7 MB",
+    "Source": "HKLM64",
+    "InstallLocation": "C:\\Program Files\\RW-Everything\\"
+  },
+  {
+    "AppName": "Self Service Password Reset",
+    "Version": "1.00.0000",
+    "InstalledDate": "2023-07-26",
+    "Publisher": "HP  Inc.",
+    "Size": "6.6 MB",
+    "Source": "HKLM64",
+    "InstallLocation": "C:\\Program Files\\HPI\\Self Service Password Reset\\"
+  },
+  {
+    "AppName": "Snipping Tool",
+    "Version": "11.2508.29.0",
+    "InstalledDate": "2025-10-14",
+    "Publisher": "Microsoft Corporation",
+    "Size": "",
+    "Source": "MSIX",
+    "InstallLocation": "C:\\Program Files\\WindowsApps\\Microsoft.ScreenSketch_11.2508.29.0_x64__8wekyb3d8bbwe"
+  },
+  {
+    "AppName": "Solitaire \u0026 Casual Games",
+    "Version": "4.24.11040.0",
+    "InstalledDate": "2025-11-06",
+    "Publisher": "Microsoft Studios",
+    "Size": "",
+    "Source": "MSIX",
+    "InstallLocation": "C:\\Program Files\\WindowsApps\\Microsoft.MicrosoftSolitaireCollection_4.24.11040.0_x64__8wekyb3d8bbwe"
+  },
+  {
+    "AppName": "Synaptics PointStick Settings Manager \u2013 Commercial",
+    "Version": "19006.1024.0.0",
+    "InstalledDate": "2024-05-16",
+    "Publisher": "Synaptics Incorporated",
+    "Size": "",
+    "Source": "MSIX",
+    "InstallLocation": "C:\\Program Files\\WindowsApps\\SynapticsIncorporated.SynHPCommercialStykDApp_19006.1024.0.0_x64__807d65c4rvak2"
+  },
+  {
+    "AppName": "Tailscale",
+    "Version": "1.90.6",
+    "InstalledDate": "2025-11-06",
+    "Publisher": "Tailscale Inc.",
+    "Size": "60.7 MB",
+    "Source": "HKLM64",
+    "InstallLocation": ""
+  },
+  {
+    "AppName": "Teams Machine-Wide Installer",
+    "Version": "1.6.0.4472",
+    "InstalledDate": "2023-07-26",
+    "Publisher": "Microsoft Corporation",
+    "Size": "135.2 MB",
+    "Source": "HKLM32",
+    "InstallLocation": ""
+  },
+  {
+    "AppName": "TeamViewer",
+    "Version": "15.64.3",
+    "InstalledDate": "",
+    "Publisher": "TeamViewer",
+    "Size": "",
+    "Source": "HKLM64",
+    "InstallLocation": "C:\\Program Files\\TeamViewer"
+  },
+  {
+    "AppName": "Thunderbolt\u2122 Control Center",
+    "Version": "1.0.37.0",
+    "InstalledDate": "2023-10-14",
+    "Publisher": "INTEL CORP",
+    "Size": "",
+    "Source": "MSIX",
+    "InstallLocation": "C:\\Program Files\\WindowsApps\\AppUp.ThunderboltControlCenter_1.0.37.0_x64__8j3eq9eme6ctt"
+  },
+  {
+    "AppName": "Tripkicks",
+    "Version": "1.00.0000",
+    "InstalledDate": "2023-07-25",
+    "Publisher": "Tripkicks",
+    "Size": "1.1 MB",
+    "Source": "HKLM64",
+    "InstallLocation": "C:\\Windows\\"
+  },
+  {
+    "AppName": "UltraViewer version 6.6.110",
+    "Version": "6.6.110",
+    "InstalledDate": "2024-12-05",
+    "Publisher": "DucFabulous",
+    "Size": "11.8 MB",
+    "Source": "HKLM32",
+    "InstallLocation": "C:\\Program Files (x86)\\UltraViewer\\"
+  },
+  {
+    "AppName": "Visual Studio Enterprise 2022",
+    "Version": "17.13.6",
+    "InstalledDate": "2023-08-01",
+    "Publisher": "Microsoft Corporation",
+    "Size": "",
+    "Source": "HKLM32",
+    "InstallLocation": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise"
+  },
+  {
+    "AppName": "vs_CoreEditorFonts",
+    "Version": "17.6.33605",
+    "InstalledDate": "2023-08-01",
+    "Publisher": "Microsoft Corporation",
+    "Size": "0.7 MB",
+    "Source": "HKLM32",
+    "InstallLocation": ""
+  },
+  {
+    "AppName": "WinDbg",
+    "Version": "1.2508.27001.0",
+    "InstalledDate": "2025-09-08",
+    "Publisher": "Microsoft Corporation",
+    "Size": "",
+    "Source": "MSIX",
+    "InstallLocation": "C:\\Program Files\\WindowsApps\\Microsoft.WinDbg_1.2508.27001.0_x64__8wekyb3d8bbwe"
+  },
+  {
+    "AppName": "Windows 11 Installation Assistant",
+    "Version": "1.4.19041.5003",
+    "InstalledDate": "",
+    "Publisher": "Microsoft Corporation",
+    "Size": "5 MB",
+    "Source": "HKLM32",
+    "InstallLocation": null
+  },
+  {
+    "AppName": "Windows Calculator",
+    "Version": "11.2508.1.0",
+    "InstalledDate": "2025-10-23",
+    "Publisher": "Microsoft Corporation",
+    "Size": "",
+    "Source": "MSIX",
+    "InstallLocation": "C:\\Program Files\\WindowsApps\\Microsoft.WindowsCalculator_11.2508.1.0_x64__8wekyb3d8bbwe"
+  },
+  {
+    "AppName": "Windows Camera",
+    "Version": "2025.2505.2.0",
+    "InstalledDate": "2025-06-25",
+    "Publisher": "Microsoft Corporation",
+    "Size": "",
+    "Source": "MSIX",
+    "InstallLocation": "C:\\Program Files\\WindowsApps\\Microsoft.WindowsCamera_2025.2505.2.0_x64__8wekyb3d8bbwe"
+  },
+  {
+    "AppName": "Windows Clock",
+    "Version": "11.2507.1.0",
+    "InstalledDate": "2025-08-27",
+    "Publisher": "Microsoft Corporation",
+    "Size": "",
+    "Source": "MSIX",
+    "InstallLocation": "C:\\Program Files\\WindowsApps\\Microsoft.WindowsAlarms_11.2507.1.0_x64__8wekyb3d8bbwe"
+  },
+  {
+    "AppName": "Windows Driver Kit - Windows 10.0.22621.2428",
+    "Version": "10.1.22621.2428",
+    "InstalledDate": "",
+    "Publisher": "Microsoft Corporation",
+    "Size": "2292.4 MB",
+    "Source": "HKLM32",
+    "InstallLocation": null
+  },
+  {
+    "AppName": "Windows Driver Kit for Windows 8.1",
+    "Version": "8.100.25984",
+    "InstalledDate": "",
+    "Publisher": "Microsoft Corporation",
+    "Size": "1158 MB",
+    "Source": "HKLM32",
+    "InstallLocation": null
+  },
+  {
+    "AppName": "Windows Maps",
+    "Version": "11.2506.3.0",
+    "InstalledDate": "2025-07-08",
+    "Publisher": "Microsoft Corporation",
+    "Size": "",
+    "Source": "MSIX",
+    "InstallLocation": "C:\\Program Files\\WindowsApps\\Microsoft.WindowsMaps_11.2506.3.0_x64__8wekyb3d8bbwe"
+  },
+  {
+    "AppName": "Windows Media Player",
+    "Version": "11.2509.7.0",
+    "InstalledDate": "2025-10-23",
+    "Publisher": "Microsoft Corporation",
+    "Size": "",
+    "Source": "MSIX",
+    "InstallLocation": "C:\\Program Files\\WindowsApps\\Microsoft.ZuneMusic_11.2509.7.0_x64__8wekyb3d8bbwe"
+  },
+  {
+    "AppName": "Windows Notepad",
+    "Version": "11.2507.26.0",
+    "InstalledDate": "2025-08-28",
+    "Publisher": "Microsoft Corporation",
+    "Size": "",
+    "Source": "MSIX",
+    "InstallLocation": "C:\\Program Files\\WindowsApps\\Microsoft.WindowsNotepad_11.2507.26.0_x64__8wekyb3d8bbwe"
+  },
+  {
+    "AppName": "Windows SDK AddOn",
+    "Version": "10.1.0.0",
+    "InstalledDate": "2023-07-27",
+    "Publisher": "Microsoft Corporation",
+    "Size": "0.1 MB",
+    "Source": "HKLM32",
+    "InstallLocation": ""
+  },
+  {
+    "AppName": "Windows Security",
+    "Version": "1000.29429.1000.0",
+    "InstalledDate": "2025-10-15",
+    "Publisher": "Microsoft Corporation",
+    "Size": "",
+    "Source": "MSIX",
+    "InstallLocation": "C:\\Program Files\\WindowsApps\\Microsoft.SecHealthUI_1000.29429.1000.0_x64__8wekyb3d8bbwe"
+  },
+  {
+    "AppName": "Windows Software Development Kit - Windows 10.0.18362.1",
+    "Version": "10.1.18362.1",
+    "InstalledDate": "",
+    "Publisher": "Microsoft Corporation",
+    "Size": "2262.5 MB",
+    "Source": "HKLM32",
+    "InstallLocation": null
+  },
+  {
+    "AppName": "Windows Software Development Kit - Windows 10.0.22000.832",
+    "Version": "10.1.22000.832",
+    "InstalledDate": "",
+    "Publisher": "Microsoft Corporation",
+    "Size": "2197.3 MB",
+    "Source": "HKLM32",
+    "InstallLocation": null
+  },
+  {
+    "AppName": "Windows Software Development Kit - Windows 10.0.22621.2428",
+    "Version": "10.1.22621.2428",
+    "InstalledDate": "",
+    "Publisher": "Microsoft Corporation",
+    "Size": "3916.5 MB",
+    "Source": "HKLM32",
+    "InstallLocation": null
+  },
+  {
+    "AppName": "Windows Software Development Kit - Windows 10.0.22621.3233",
+    "Version": "10.1.22621.3233",
+    "InstalledDate": "",
+    "Publisher": "Microsoft Corporation",
+    "Size": "2603 MB",
+    "Source": "HKLM32",
+    "InstallLocation": null
+  },
+  {
+    "AppName": "Windows Software Development Kit for Windows 8.1",
+    "Version": "8.100.26936",
+    "InstalledDate": "",
+    "Publisher": "Microsoft Corporation",
+    "Size": "1884.1 MB",
+    "Source": "HKLM32",
+    "InstallLocation": null
+  },
+  {
+    "AppName": "Windows Sound Recorder",
+    "Version": "11.2504.0.0",
+    "InstalledDate": "2025-06-23",
+    "Publisher": "Microsoft Corporation",
+    "Size": "",
+    "Source": "MSIX",
+    "InstallLocation": "C:\\Program Files\\WindowsApps\\Microsoft.WindowsSoundRecorder_11.2504.0.0_x64__8wekyb3d8bbwe"
+  },
+  {
+    "AppName": "Windows Terminal",
+    "Version": "1.23.12811.0",
+    "InstalledDate": "2025-10-14",
+    "Publisher": "Microsoft Corporation",
+    "Size": "",
+    "Source": "MSIX",
+    "InstallLocation": "C:\\Program Files\\WindowsApps\\Microsoft.WindowsTerminal_1.23.12811.0_x64__8wekyb3d8bbwe"
+  },
+  {
+    "AppName": "WinPVT 11.15.0",
+    "Version": "11.15.0",
+    "InstalledDate": "2025-04-29",
+    "Publisher": "HP Inc.",
+    "Size": "551.5 MB",
+    "Source": "HKLM64",
+    "InstallLocation": "C:\\Program Files\\Hewlett-Packard\\WinPVT 11.15.0\\"
+  },
+  {
+    "AppName": "Xbox",
+    "Version": "2510.1001.55.0",
+    "InstalledDate": "2025-10-15",
+    "Publisher": "Microsoft Corporation",
+    "Size": "",
+    "Source": "MSIX",
+    "InstallLocation": "C:\\Program Files\\WindowsApps\\Microsoft.GamingApp_2510.1001.55.0_x64__8wekyb3d8bbwe"
+  },
+  {
+    "AppName": "Xbox Console Companion",
+    "Version": "48.104.4001.0",
+    "InstalledDate": "2023-08-29",
+    "Publisher": "Microsoft Corporation",
+    "Size": "",
+    "Source": "MSIX",
+    "InstallLocation": "C:\\Program Files\\WindowsApps\\Microsoft.XboxApp_48.104.4001.0_x64__8wekyb3d8bbwe"
+  },
+  {
+    "AppName": "Zoom Outlook Plugin",
+    "Version": "6.0.0",
+    "InstalledDate": "2025-04-23",
+    "Publisher": "Zoom",
+    "Size": "35.8 MB",
+    "Source": "HKLM32",
+    "InstallLocation": ""
+  },
+  {
+    "AppName": "Zoom Workplace (64-bit)",
+    "Version": "6.6.15968",
+    "InstalledDate": "2025-10-27",
+    "Publisher": "Zoom",
+    "Size": "402.6 MB",
+    "Source": "HKLM64",
+    "InstallLocation": ""
+  },
+  {
+    "AppName": "Zscaler",
+    "Version": "4.3.0.269",
+    "InstalledDate": "2025-03-05",
+    "Publisher": "Zscaler Inc.",
+    "Size": "96.5 MB",
+    "Source": "HKLM64",
+    "InstallLocation": "C:\\Program Files\\Zscaler"
+  },
+  {
+    "AppName": "\u5065\u4FDD\u5361\u7247\u9A57\u8B49\u5143\u4EF6",
+    "Version": "2.0.4",
+    "InstalledDate": "2023-12-16",
+    "Publisher": "\u885B\u751F\u798F\u5229\u90E8\u4E2D\u592E\u5065\u5EB7\u4FDD\u96AA\u7F72",
+    "Size": "14.9 MB",
+    "Source": "HKLM32",
+    "InstallLocation": ""
+  },
+  {
+    "AppName": "\u5638\u8766\u7C73\u8F38\u5165\u6CD5 J \u8A66\u7528\u7248 (x64)",
+    "Version": "rev. 476",
+    "InstalledDate": "",
+    "Publisher": "\u884C\u6613\u6709\u9650\u516C\u53F8",
+    "Size": "",
+    "Source": "HKLM64",
+    "InstallLocation": null
+  },
+  {
+    "AppName": "\u6587\u4EF6",
+    "Version": "1.0",
+    "InstalledDate": "2024-08-28",
+    "Publisher": "Google\\Chrome",
+    "Size": "",
+    "Source": "HKCU",
+    "InstallLocation": null
+  },
+  {
+    "AppName": "\u89E3\u538B\u8F6F\u4EF6",
+    "Version": "9.8.69.0",
+    "InstalledDate": "2025-09-14",
+    "Publisher": "Wuhan Net Power Technology Co., Ltd",
+    "Size": "",
+    "Source": "MSIX",
+    "InstallLocation": "C:\\Program Files\\WindowsApps\\WuhanNetPowerTechnologyCo.3322537A536FD_9.8.69.0_x64__63m8b6nby1dvp"
+  },
+  {
+    "AppName": "\u8DE8\u5E73\u53F0\u7DB2\u9801\u5143\u4EF6 \u7248\u672C 1.3.4.103346",
+    "Version": "1.3.4.103346",
+    "InstalledDate": "2024-05-04",
+    "Publisher": "Chunghwa Telecom Co., Ltd.",
+    "Size": "28.4 MB",
+    "Source": "HKLM32",
+    "InstallLocation": "C:\\Program Files (x86)\\HiPKILocalSignServer\\"
+  }
+]}
