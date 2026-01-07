@@ -1,5 +1,6 @@
 import React from "react";
 import BarChart from "@/components/bar-chart";
+import UsersTable from "@/components/userTable/user-table";
 import fs from "fs";
 import path from "path"
 const colorSet = [
@@ -35,6 +36,7 @@ export default function Home() {
           values={filterData.map((row: ProcessData) => row.usage)}
           colorSet={backgroundColor}
         />
+        <UsersTable />
       </div>
     );
 }
