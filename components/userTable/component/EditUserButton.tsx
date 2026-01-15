@@ -23,7 +23,7 @@ export default function EditUserButton({ user }: { user: { id: number; name: str
         <>
             <button 
                 onClick={() => setOpen(true)}
-                className="px-3 py-1 bg-blue-500 hover:bg-blue-600 text-white rounded text-sm"
+                className="px-3 py-1 bg-blue-500 hover:bg-blue-600 text-white rounded text-sm cursor-pointer"
             >
                 Edit
             </button>
@@ -67,13 +67,13 @@ export default function EditUserButton({ user }: { user: { id: number; name: str
                         <div className="flex gap-2 justify-end">
                             <button 
                                 onClick={() => setOpen(false)}
-                                className="px-4 py-2 bg-gray-200 hover:bg-gray-300 text-gray-800 rounded-lg"
+                                className="px-4 py-2 bg-gray-200 hover:bg-gray-300 text-gray-800 rounded-lg cursor-pointer"
                             >
                                 Cancel
                             </button>
                             <button 
                                 onClick={handleSave}
-                                className="px-4 py-2 bg-blue-500 hover:bg-blue-600 text-white rounded-lg"
+                                className="px-4 py-2 bg-blue-500 hover:bg-blue-600 text-white rounded-lg cursor-pointer"
                             >
                                 Save
                             </button>

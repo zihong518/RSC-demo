@@ -15,11 +15,9 @@ interface User {
 export default async function UsersTable() {
     const users = db.prepare("SELECT * FROM users").all() as User[]
 
-    
     return (
-        <div className="p-6">
+        <div className="">
             <h1 className="text-2xl font-semibold mb-6">Users</h1>
-
             <div className="overflow-hidden rounded-lg border bg-white">
                 <table className="min-w-full text-sm">
                     <thead className="bg-gray-100 text-gray-600 sticky top-0 z-10">
@@ -29,7 +27,7 @@ export default async function UsersTable() {
                             <th className="px-4 py-3 text-left font-medium">Role</th>
                             <th className="px-4 py-3 text-left font-medium">Status</th>
                             <th className="px-4 py-3 text-left font-medium">Created</th>
-                            <th className="px-4 py-3 text-left font-medium">Edit</th>
+                            <th className="px-4 py-3 text-center font-medium">Edit</th>
                         </tr>
                     </thead>
 
@@ -58,7 +56,7 @@ export default async function UsersTable() {
                                 <td className="px-4 py-3 text-gray-500">
                                     {new Date(user.createdAt).toLocaleString()}
                                 </td>
-                                <td>    
+                                <td className="text-center">
                                     <EditUserButton user={user} />
                                 </td>
                             </tr>

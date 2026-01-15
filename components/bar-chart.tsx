@@ -13,7 +13,6 @@ import {
 import { Bar } from "react-chartjs-2";
 
 
-
 ChartJS.register(
   CategoryScale,
   LinearScale,
