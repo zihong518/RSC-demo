@@ -1,7 +1,8 @@
-export const dynamic = 'force-dynamic'; // 禁用缓存，确保是实时流
+export const dynamic = 'force-dynamic';
 
 export async function GET() {
   const encoder = new TextEncoder();
+  let intervalId: NodeJS.Timeout;
 
   const stream = new ReadableStream({
     async start(controller) {
@@ -10,17 +11,16 @@ export async function GET() {
           message: "the data from Next.js SSE API",
           time: new Date().toLocaleTimeString(),
         });
-        // SSE 格式：data: <内容>\n\n
+       
         controller.enqueue(encoder.encode(`data: ${data}\n\n`));
       };
       sendUpdate();
 
-      const intervalId = setInterval(sendUpdate, 2000);
-
-
+      intervalId = setInterval(sendUpdate, 2000);
     },
     cancel() {
-      console.log("客户端已关闭连接");
+      clearInterval(intervalId);
+      console.log("closed connection");
     }
   });
 
