@@ -8,22 +8,23 @@ export default function Chat() {
 
   async function start() {
     setText("");
+    startTransition(async () => {
+      
 
-    const res = await fetch("/api/ai", {
-      method: "POST",
-    });
-
-    const reader = res.body!.getReader();
-    const decoder = new TextDecoder();
-
-    while (true) {
-      const { value, done } = await reader.read();
-      if (done) break;
-
-      startTransition(() => {
-        setText((t) => t + decoder.decode(value));
+      const res = await fetch("/api/ai", {
+        method: "POST",
       });
-    }
+
+      const reader = res.body!.getReader();
+      const decoder = new TextDecoder();
+
+      while (true) {
+        const { value, done } = await reader.read();
+        if (done) break;
+
+        setText((t) => t + decoder.decode(value));
+      }
+    });
   }
 
   return (

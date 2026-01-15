@@ -1,7 +1,7 @@
 import { Suspense } from "react";
 import Chat from "./chat";
 import DelayedContent from "./delayed-content";
-
+import LiveDashboard from "./sse";
 export default function Page() {
   return (
     <main className="min-h-screen bg-gradient-to-b from-background to-muted p-8">
@@ -12,6 +12,7 @@ export default function Page() {
             Streams AI responses from the API using the Fetch streaming reader.
           </p>
         </header>
+        <LiveDashboard />
         <section className="rounded-xl border bg-card p-6 shadow-sm">
           <Chat />
         </section>
@@ -24,16 +25,17 @@ export default function Page() {
           </p>
           <Suspense
             fallback={
-              <div className="space-y-3">
-                <div className="h-6 w-48 rounded bg-muted animate-pulse" />
-                <div className="h-24 w-full rounded bg-muted/40 animate-pulse" />
-                <div className="h-4 w-64 rounded bg-muted animate-pulse" />
+              <div className="space-y-3 flex items-center justify-center">
+                <div className="h-24 w-full rounded bg-muted/40 animate-pulse text-center flex items-center justify-center" >
+                loading...
+                </div>
               </div>
             }
           >
             <DelayedContent />
           </Suspense>
         </section>
+
       </div>
     </main>
   );
