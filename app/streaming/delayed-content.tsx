@@ -41,7 +41,6 @@ export default async function DelayedContent() {
           <li>Show the <em>fallback</em> immediately while the server work runs.</li>
           <li>Replace the fallback with real content when the async work resolves.</li>
           <li>Place boundaries around slow sections; you can nest multiple boundaries.</li>
-          <li>Use lightweight skeletons to avoid layout shift.</li>
         </ul>
       </div>
     </div>

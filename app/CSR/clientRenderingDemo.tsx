@@ -3,9 +3,15 @@
 import { InteractiveCounter } from "@/components/interactive-counter"
 import Link from "next/link"
 import { BIG_DATA } from "@/components/big-module"
+import { useEffect, useState } from "react"
 
 export default function ClientRenderingDemo() {
-    const time = new Date().toISOString()
+    const [time, setTime] = useState('')
+    
+    useEffect(() => {
+        setTime(new Date().toISOString())
+    }, [])
+    
     return (
       <main className="min-h-screen bg-gradient-to-b from-background to-muted p-8">
         <div className="mx-auto max-w-6xl space-y-12">

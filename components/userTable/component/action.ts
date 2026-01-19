@@ -5,18 +5,19 @@ import { revalidatePath } from "next/cache"
 const db = new Database("dev.db")
     
 
-export async function updateUser(updatedData: { id: number; name: string; email: string }) {
-    const id = updatedData.id
-    const name = updatedData.name
-    const email = updatedData.email
-
-  db.prepare(`
+export async function updateUser(formData: FormData) {
+    const id = formData.get("id")
+    const name = formData.get("name")
+    const email = formData.get("email")
+    await new Promise(resolve => setTimeout(resolve, 2000));
+      db.prepare(`
     UPDATE users
     SET
       name = ?,
       email = ?
     WHERE id = ?
   `).run(name, email, id)
+  
 
   revalidatePath("/users")
 }

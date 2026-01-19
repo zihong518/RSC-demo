@@ -11,7 +11,7 @@ export default function Chat() {
     startTransition(async () => {
       
 
-      const res = await fetch("/api/ai", {
+      const res = await fetch("/api/token", {
         method: "POST",
       });
 
